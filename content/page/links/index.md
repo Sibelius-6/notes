@@ -4,27 +4,27 @@ links:
   - title: PDF
     description: pending
     website: https://notes.sibeliusp.com/pdf
-    image: img/pdf.png
+    image: /images/pdf.png
   - title: Markdown
     description: pending
     website: https://notes.sibeliusp.com/mdf
-    image: img/markdown.png
+    image: /images/markdown.png
   - title: Map Videos 
     description: pending
     website: https://www.youtube.com/playlist?list=PLOYRlicwLG3St5aEm02ncj-sPDJwmojIS
-    image: img/dos.jpg
+    image: /images/dos.jpg
   - title: LaTeX
     description: pending
     website: https://latex.sibeliusp.com/
-    image: img/latex.png
+    image: /images/latex.png
   - title: Cameron's notes
     description: pending
     website: https://hextical.github.io/university-notes/
-    image: img/cameron.jpg
+    image: /images/cameron.jpg
   - title: David's notes
     description: pending
     website: http://david-duan.me/course-notes/
-    image: img/david.jpg
+    image: /images/david.jpg
 menu:
     main: 
         weight: 4
