@@ -7,6 +7,7 @@ menu:
             icon: messages
 
 comments: false
+showReadingTime: false
 ---
 
 <style type="text/css">
