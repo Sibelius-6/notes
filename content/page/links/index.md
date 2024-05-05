@@ -34,4 +34,5 @@ menu:
 comments: false
 ---
 
-Affiliated links.
+Affiliated links. Image squared by [SquareImage](https://squareanimage.com/).
+
