@@ -10,7 +10,7 @@ favicon = "/favicon.ico"
 
 [footer]
 since = 2017
-customText = "notes taking with heart"
+customText = "Notes taking with heart"
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -46,12 +46,6 @@ limit = 5
 
 [[widgets.homepage]]
 type = "subject"
-
-[widgets.homepage.params]
-limit = 10
-
-[[widgets.homepage]]
-type = "tag-cloud"
 
 [widgets.homepage.params]
 limit = 10
