@@ -4,6 +4,10 @@ mainSections = ["post"]
 rssFullContent = true
 favicon = "/favicon.ico"
 
+taxonomies:
+  term: term
+  subject: subject
+
 [footer]
 since = 2017
 customText = ""
@@ -35,13 +39,13 @@ default = "Licensed under CC BY-NC-SA 4.0"
 type = "search"
 
 [[widgets.homepage]]
-type = "archives"
+type = "term"
 
 [widgets.homepage.params]
 limit = 5
 
 [[widgets.homepage]]
-type = "categories"
+type = "subject"
 
 [widgets.homepage.params]
 limit = 10
