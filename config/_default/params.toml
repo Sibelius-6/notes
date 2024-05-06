@@ -5,8 +5,8 @@ rssFullContent = true
 favicon = "/favicon.ico"
 
 [taxonomies]
-term = 'term'
-subject = 'subject'
+    term = 'term'
+    subject = 'subject'
 
 [footer]
 since = 2017

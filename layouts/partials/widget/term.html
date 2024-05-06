@@ -7,10 +7,12 @@
     <h2 class="widget-title section-title">TERM</h2>
 
     <div class="tagCloud-tags">
-        {{ range first $limit $context.Site.Taxonomies.term.ByCount }}
-            <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
-                {{ .Page.Title }}
-            </a>
+        {{ with $context.Site.Taxonomies.term.ByCount }}
+            {{ range first $limit . }}
+                <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
+                    {{ .Page.Title }}
+                </a>
+            {{ end }}
         {{ end }}
     </div>
 </section>
