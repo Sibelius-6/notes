@@ -8,5 +8,5 @@ menu:
     main:
         weight: 3
         params: 
-            icon: purpose
+            icon: language
 ---
