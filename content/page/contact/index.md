@@ -2,7 +2,7 @@
 title: Contact
 menu:
     main: 
-        weight: 5
+        weight: 6
         params:
             icon: messages
 
