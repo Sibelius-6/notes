@@ -4,11 +4,11 @@
         {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "subject" -}}
         {{- $terms := $taxonomy.Pages -}}
         {{ if $terms }}
-        <h2 class="section-title">asdfa</h2>
+        <h2 class="section-title">{{ $taxonomy.Title }}</h2>
         <div class="subsection-list">
             <div class="article-list--tile">
                 {{ range $terms }}
-                    {{ partial "article-list/tile-subject" (dict "context" . "size" "250x150" "Type" "taxonomy") }}
+                    {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "taxonomy") }}
                 {{ end }}
             </div>
         </div>
@@ -25,7 +25,7 @@
         <h2 class="archives-date section-title"><a href="{{ $.RelPermalink }}#{{ $id }}">{{ .Key }}</a></h2>
         <div class="article-list--compact">
             {{ range .Pages }}
-                {{ partial "article-list/compact" . }}
+                {{ partial "article-list/compact-subject" . }}
             {{ end }}
         </div>
     </div>
