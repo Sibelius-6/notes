@@ -15,7 +15,7 @@
         {{ end }}
     </header>
 
-    <pre>{{ debug.Dump $context.Site.Taxonomies.term }}</pre>
+    <pre>{{ debug.Dump .Site.Taxonomies.term }}</pre>
 
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
