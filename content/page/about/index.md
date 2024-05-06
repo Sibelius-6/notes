@@ -32,6 +32,7 @@ menu:
             icon: link
 
 comments: false
+readingTime: false
 ---
 
 # Reviews
@@ -64,7 +65,9 @@ Most of these notes are written in their entirety by me, [Sibelius Peng](https:/
 
 The course thumbnails are either from learn site, which the instructor uploads for the course, or from the internet.
 
----
+# Other
+
+<a href="https://www.flaticon.com/free-icons/subject" title="subject icons">Subject icons created by Eucalyp - Flaticon</a>
 
 Below are affiliated links. Image squared by [SquareImage](https://squareanimage.com/).
 
