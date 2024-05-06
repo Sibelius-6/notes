@@ -1,7 +1,7 @@
-{{ define "body-class" }}template-archives{{ end }}
+{{ define "body-class" }}template-subject{{ end }}
 {{ define "main" }}
     <header>
-        {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "categories" -}}
+        {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "subject" -}}
         {{- $terms := $taxonomy.Pages -}}
         {{ if $terms }}
         <h2 class="section-title">{{ $taxonomy.Title }}</h2>
@@ -14,6 +14,8 @@
         </div>
         {{ end }}
     </header>
+
+    <pre>{{ debug.Dump $context.Site.Taxonomies.term }}</pre>
 
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}

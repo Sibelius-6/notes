@@ -6,5 +6,13 @@
     </div>
     <h2 class="widget-title section-title">SUBJECT</h2>
 
-
+    <div class="tagCloud-tags">
+        {{ with $context.Site.Taxonomies.subject.ByCount }}
+            {{ range first $limit . }}
+                <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
+                    {{ .Page.Title }}
+                </a>
+            {{ end }}
+        {{ end }}
+    </div>
 </section>

@@ -7,7 +7,6 @@
     <h2 class="widget-title section-title">TERM</h2>
 
     <div class="tagCloud-tags">
-        <pre>{{ debug.Dump $context.Site.Taxonomies.term }}</pre>
         {{ with $context.Site.Taxonomies.term.ByCount }}
             {{ range first $limit . }}
                 <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
