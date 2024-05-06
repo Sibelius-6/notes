@@ -4,7 +4,7 @@
         {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "subject" -}}
         {{- $terms := $taxonomy.Pages -}}
         {{ if $terms }}
-        <h2 class="section-title">{{ $taxonomy.Title }}</h2>
+        <h2 class="section-title">{{ T $taxonomy.Title }}</h2>
         <div class="subsection-list">
             <div class="article-list--tile">
                 {{ range $terms }}
@@ -15,23 +15,20 @@
         {{ end }}
     </header>
 
-    <pre>{{ debug.Dump .Site.Taxonomies.term }}</pre>
 
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
     {{ $filtered := ($pages | intersect $notHidden) }}
 
-    {{ range $filtered.GroupByDate "2006" }}
     {{ $id := lower (replace .Key " " "-") }}
     <div class="archives-group" id="{{ $id }}">
-        <h2 class="archives-date section-title"><a href="{{ $.RelPermalink }}#{{ $id }}">SUBJECT{{ .Key }}</a></h2>
+        <h2 class="archives-date section-title"><a href="{{ $.RelPermalink }}#{{ $id }}">{{ .Key }}</a></h2>
         <div class="article-list--compact">
             {{ range .Pages }}
                 {{ partial "article-list/compact" . }}
             {{ end }}
         </div>
     </div>
-    {{ end }}
 
     {{ partialCached "footer/footer" . }}
 {{ end }}
