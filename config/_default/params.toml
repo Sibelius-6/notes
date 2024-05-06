@@ -4,9 +4,13 @@ mainSections = ["post"]
 rssFullContent = true
 favicon = "/favicon.ico"
 
+[taxonomies]
+term = 'term'
+subject = 'subject'
+
 [footer]
 since = 2017
-customText = ""
+customText = "notes taking with heart"
 
 [dateFormat]
 published = "Jan 02, 2006"
