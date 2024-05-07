@@ -2,10 +2,10 @@
     <a href="{{ .RelPermalink }}">
         <div class="article-details">
             <h2 class="article-title">
-                {{ if in .Site.Taxonomies.subject .Title }}
-                    {{ upper .Title }} 
+                {{ if in .Params.subject .Title }}
+                    {{ upper .Title }} upper
                 {{ else }}
-                    {{- .Title -}}
+                    {{- .Title -}} test
                 {{ end }}    
             </h2>
             <!--footer class="article-time">
