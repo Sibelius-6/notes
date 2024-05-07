@@ -19,4 +19,4 @@ He also made a joke with his mic. He went outside to drink some water. When he w
 235 is more well-structured than 136... If you screwed up with 136, 235 is still ok.
 
 # Notes
-I started to learn LaTeX from this term... So here is a set of [compact notes](/pdf/1185/math235/math235.pdf).
+I started to learn LaTeX from this term... So here is a set of [compact notes](https://pdf.sibeliusp.com/1185/math235/math235.pdf).

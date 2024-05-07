@@ -18,8 +18,8 @@ First, I just wanted to take a sixth course (stat 230, and not online version). 
 He said he wouldn't fail you like other faculties... and yes! He didn't. I got an OK grade. The grade distribution is that simple: 3 in-class tests and a presentation. Tests should be fair if you read over the textbooks (I didn't, then I bought a second-hand version before the final...) and memorize the melodies of assigned pieces (I didn't). It would be nice if he could post the solutions to the tests afterwards...
 
 I examined Brahms' *A German Requiem*, especially the 4th movement, which is melodic. Here are some resources:
-- [Outline](/pdf/1181/outline.pdf)
-- [Presentation](/pdf/1181/post.pdf)
+- [Outline](https://pdf.sibeliusp.com/1181/outline.pdf)
+- [Presentation](https://pdf.sibeliusp.com/1181/post.pdf)
 
 [Here](https://uwaterloo.ca/music/sites/ca.music/files/uploads/files/mus_255_w18_-_k._hull_-_accessible.pdf) is the outline posted on the website. The notes above is generated from the fall 2020 version, taught by [Dr. Gray](https://uwaterloo.ca/grebel/people-profiles/laura-j-gray).
 

@@ -13,6 +13,6 @@ This course is taught by a single instructor all over the terms. Some said it's 
 
 Anyway, just prepare the slides and textbooks before the final...
 
-Here is my [presentation](/pdf/1185/easia202r/slides.pdf).
+Here is my [presentation](https://pdf.sibeliusp.com/1185/easia202r/slides.pdf).
 
-Also, we were required to submit a [book review](/pdf/1185/easia202r/China_in_ten_words.pdf). I chose *China in Ten Words* by Yu Hua. Here is the [reflection](/pdf/1185/easia202r/after_thoughts.pdf).
+Also, we were required to submit a [book review](https://pdf.sibeliusp.com/1185/easia202r/China_in_ten_words.pdf). I chose *China in Ten Words* by Yu Hua. Here is the [reflection](https://pdf.sibeliusp.com/1185/easia202r/after_thoughts.pdf).

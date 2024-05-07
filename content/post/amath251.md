@@ -14,4 +14,4 @@ Harsh TA, made the average around 40 for the first 2 assignments deliberately. T
 This course is required for AMATH major or minor or joint(?), but you can discuss with advisor if your coop sequence
 cannot make this course.
 
-[Here](/pdf/1189/251.pdf) is a summary.
+[Here](https://pdf.sibeliusp.com/1189/251.pdf) is a summary.

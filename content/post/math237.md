@@ -18,5 +18,5 @@ His research interests are Geometry & Topology (maybe more), then he taught pmat
 Many math 148 students don't like this course since drawing \\(z=x^2+y^2\\) is boring... They would rather do proofs...
 
 As you might see from [math 235](../MATH235/), I learnt LaTeX. So here are some results:
-- [~notes?~](/pdf/1185/math237.pdf) (This is for math136/235).
-- [Two results](/pdf/1185/math237_more.pdf) from UW course instructions
+- [~notes?~](https://pdf.sibeliusp.com/1185/math237.pdf) (This is for math136/235).
+- [Two results](https://pdf.sibeliusp.com/1185/math237_more.pdf) from UW course instructions

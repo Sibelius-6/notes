@@ -13,4 +13,4 @@ Taught by a [PhD graduate, Giuseppe](https://uwaterloo.ca/applied-mathematics/ab
 
 He tried his best to make the course better: group discussion on midterms and so on. But final was hard because of tons of solving PDEs... Maybe should make the participation as the bonus.
 
-[Partial notes](/pdf/1195/amath353.pdf) and [final review](/pdf/1195/amath353_final.pdf)
+[Partial notes](https://pdf.sibeliusp.com/1195/amath353.pdf) and [final review](https://pdf.sibeliusp.com/1195/amath353_final.pdf)

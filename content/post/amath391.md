@@ -13,7 +13,7 @@ This course spent a lot of time on introducing the foundation of wavelets: inner
 
 Lots of the materials are just for information due to the nature of this introductory course. I really don't have much time to go through all of these supplementary materials due to the limitation of time, but they are good to know if you are really interested in signal analysis.
 
-[Midterm review](/pdf/1199/amath391mid.pdf).
+[Midterm review](https://pdf.sibeliusp.com/1199/amath391mid.pdf).
 
 Final review: See the top link.
 

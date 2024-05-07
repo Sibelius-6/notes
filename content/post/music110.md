@@ -10,9 +10,9 @@ image: "/crs_banner/music110.jpg"
 ---
 
 
-[Test 1 review notes](/pdf/1201/mus110_unit1.pdf). Held on Feb 13th, 2020.
+[Test 1 review notes](https://pdf.sibeliusp.com/1201/mus110_unit1.pdf). Held on Feb 13th, 2020.
 
-[Test 2 review notes](/pdf/1201/mus110_test2_review.pdf). Held between Apr 2nd and Apr 9th.
+[Test 2 review notes](https://pdf.sibeliusp.com/1201/mus110_test2_review.pdf). Held between Apr 2nd and Apr 9th.
 
 This is a good course on an introduction to cultural contexts... I think this course is more on musicology: study different music cultural things, like different parts of the world.
 

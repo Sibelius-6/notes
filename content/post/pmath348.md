@@ -12,4 +12,4 @@ draft: true
 
 First lecture is about the introduction: insolvability of quintic eqns and so on.
 
-The incomplete notes (Winter 2020) can be found [here](/pdf/1201/pmath348.pdf). The notes above is made from Winter 2021 offering.
+The incomplete notes (Winter 2020) can be found [here](https://pdf.sibeliusp.com/1201/pmath348.pdf). The notes above is made from Winter 2021 offering.
