@@ -7,5 +7,6 @@ term: Fall 2021
 subject: amath
 latex: /pdf/1219/amath453.pdf
 image: "/crs_banner/pde2.png"
-draft: true
 ---
+
+The notes is incomplete. But you can refer to [krmatthe](https://csclub.uwaterloo.ca/~krmatthe/AMATH/453/).
