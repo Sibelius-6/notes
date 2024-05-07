@@ -3,11 +3,11 @@ title: About
 links:
   - title: PDF
     description: pending
-    website: https://notes.sibeliusp.com/pdf
+    website: https://pdf.sibeliusp.com/
     image: /images/pdf.png
   - title: Markdown
     description: pending
-    website: https://notes.sibeliusp.com/mdf
+    website: https://mdf.sibeliusp.com/
     image: /images/markdown.png
   - title: Map Videos 
     description: pending
