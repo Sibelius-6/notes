@@ -1,0 +1,2 @@
+RedirectMatch "^/pdf/?$" "https://pdf.sibeliusp.com"
+RedirectMatch "^/mdf/?$" "https://mdf.sibeliusp.com"

@@ -2,27 +2,27 @@
 title: About
 links:
   - title: PDF
-    description: pending
+    description: PDF notes collection
     website: https://pdf.sibeliusp.com/
     image: /images/pdf.png
   - title: Markdown
-    description: pending
+    description: Markdown notes collection
     website: https://mdf.sibeliusp.com/
     image: /images/markdown.png
   - title: Map Videos 
-    description: pending
+    description: Map videos in DC library
     website: https://www.youtube.com/playlist?list=PLOYRlicwLG3St5aEm02ncj-sPDJwmojIS
     image: /images/dos.jpg
   - title: LaTeX
-    description: pending
+    description: LaTeX tricks
     website: https://latex.sibeliusp.com/
     image: /images/latex.png
   - title: Cameron's notes
-    description: pending
+    description: as titled
     website: https://hextical.github.io/university-notes/
     image: /images/cameron.jpg
   - title: David's notes
-    description: pending
+    description: as titled
     website: http://david-duan.me/course-notes/
     image: /images/david.jpg
 menu:
