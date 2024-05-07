@@ -38,7 +38,7 @@ type = "search"
 type = "term"
 
 [widgets.homepage.params]
-limit = 5
+limit = 10
 
 [[widgets.homepage]]
 type = "subject"
