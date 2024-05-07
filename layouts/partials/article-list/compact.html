@@ -2,12 +2,14 @@
     <a href="{{ .RelPermalink }}">
         <div class="article-details">
             <h2 class="article-title">
-                <pre>{{ debug.Dump .Params.subject }}</pre>
-                <pre>title {{ debug.Dump .Title }}</pre>
-                {{ if in .Params.subject .Title }}
-                    {{ upper .Title }} upper
+                {{ if strings.Contains .Title "Fall" }}
+                    {{- .Title -}}
+                {{ else if strings.Contains .Title "Spring" }}
+                    {{- .Title -}} 
+                {{ else if strings.Contains .Title "Winter" }}
+                    {{- .Title -}}
                 {{ else }}
-                    {{- .Title -}} test
+                    {{ upper .Title }}
                 {{ end }}    
             </h2>
             <!--footer class="article-time">
