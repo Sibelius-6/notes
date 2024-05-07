@@ -67,7 +67,5 @@ The course thumbnails are either from learn site, which the instructor uploads f
 
 # Other
 
-<a href="https://www.flaticon.com/free-icons/subject" title="subject icons">Subject icons created by Eucalyp - Flaticon</a>
-
 Below are affiliated links. Image squared by [SquareImage](https://squareanimage.com/).
 

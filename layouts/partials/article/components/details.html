@@ -1,11 +1,18 @@
 <div class="article-details">
     {{ if .Params.categories }}
     <header class="article-category">
-        {{ range (.GetTerms "categories") }}
-            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
-                {{ .LinkTitle }}
-            </a>
+        {{ with .Params.latex }}
+            <a href="{{- .Params.latex -}}" style="background-color: #FF0000; color: #fff;">
+            LaTeX notes
+        </a>
         {{ end }}
+
+        {{ with .Params.md }}
+            <a href="{{- .Params.md -}}" style="background-color: #03a7dd; color: #fff;">
+            Markdown notes
+        </a>
+        {{ end }}
+
     </header>
     {{ end }}
 

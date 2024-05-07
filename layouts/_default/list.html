@@ -18,6 +18,10 @@
                     {{- .Title -}} 
                 {{ else if strings.Contains .Title "Winter" }}
                     {{- .Title -}}
+                {{ else if strings.Contains .Title "Term" }}
+                    {{- .Title -}}
+                {{ else if strings.Contains .Title "Subject" }}
+                    {{- .Title -}}
                 {{ else }}
                     {{ upper .Title }}
                 {{ end }}  
