@@ -20,4 +20,4 @@ For example, co 450 students serve the best if they took co 255.
 
 
 This notes is incomplete.
-Check the [winter 2020 version](/co/255) for a complete version.
+Check the [winter 2020 version](/co255) for a complete version.

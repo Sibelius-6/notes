@@ -7,6 +7,7 @@ term: Winter 2019
 subject: syde
 md: /mdf/1205/syde522
 image: "/crs_banner/syde522.jpg"
+math: true
 ---
 
 The complete notes above is taken down from the [winter 2019](https://www.youtube.com/watch?v=tExPpuk-UQ8) during spring 2020.  And [here](https://github.com/KimiaLab/SYDE-522) is the official(?) notes from winter 2018.
