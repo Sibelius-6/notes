@@ -2,6 +2,8 @@
     <a href="{{ .RelPermalink }}">
         <div class="article-details">
             <h2 class="article-title">
+                <pre>{{ debug.Dump .Params.subject }}</pre>
+                <pre>title {{ debug.Dump .Title }}</pre>
                 {{ if in .Params.subject .Title }}
                     {{ upper .Title }} upper
                 {{ else }}
