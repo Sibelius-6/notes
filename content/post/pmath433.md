@@ -5,7 +5,7 @@ description: "Set Theory and Model Theory"
 date: 2020-09-01 00:00:00+0000
 term: Fall 2020
 subject: pmath
-image: /style/image/pmath433.png
+image: "/crs_banner/pmath433.png"
 latex: /pdf/1215/pmath433.pdf
 draft: true
 ---
