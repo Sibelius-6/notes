@@ -1,6 +1,0 @@
-RewriteEngine on
-
-RedirectMatch 301 /pdf/? https://pdf.sibeliusp.com
-RedirectMatch 301 /mdf/? https://mdf.sibeliusp.com
-RedirectMatch 301 /mdf https://mdf.sibeliusp.com
-RedirectMatch 301 /pdf https://pdf.sibeliusp.com
