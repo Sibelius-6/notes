@@ -5,16 +5,27 @@
     <h2 class="article-subtitle">This page does not exist. Try to do a <a href="/search/">search</a>.</h2>
   </div>
   <script>
+    function mdf() {
+      document.location.href = 'https://mdf.sibeliusp.com';
+    }
+    function pdf() {
+      document.location.href = 'https://pdf.sibeliusp.com';
+    }
+
     if(document.location.href.indexOf('mdf') > -1) { 
         // indexOf will return the position of the first occurence of this string in the url
         // or -1 it it's not there.
-        document.location.href = 'https://mdf.sibeliusp.com';
+        setTimeout(mdf, 5000);
+        var subtitle = document.getElementsByClassName('article-subtitle')[0];
+        subtitle.innerHTML = "This page turns out to be deprecated markdown link. Redirecting to the Markdown collection page."
     }
 
     if(document.location.href.indexOf('pdf') > -1) { 
         // indexOf will return the position of the first occurence of this string in the url
         // or -1 it it's not there.
-        document.location.href = 'https://pdf.sibeliusp.com';
+        setTimeout(pdf, 5000);
+        var subtitle = document.getElementsByClassName('article-subtitle')[0];
+        subtitle.innerHTML = "This page turns out to be deprecated pdf link. Redirecting to the PDF collection page."
     }
 
     const errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
