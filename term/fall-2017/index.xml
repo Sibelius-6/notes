@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fall 2017 on Sibelius Peng</title><link>https://notes.sibeliusp.com/term/fall-2017/</link><description>Recent content in Fall 2017 on Sibelius Peng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.sibeliusp.com/term/fall-2017/index.xml" rel="self" type="application/rss+xml"/><item><title>CS 135</title><link>https://notes.sibeliusp.com/cs135/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs135/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs135.png" alt="Featured image of post CS 135" />&lt;p>This course is taught by &lt;a class="link" href="https://cs.uwaterloo.ca/~dtompkin/" target="_blank" rel="noopener"
+>Dave&lt;/a>, big fan of Coke Zero. In the first lecture, he used a clicker question with the last option to be &lt;code>那个穿丑陋衬衫的人在说什么&lt;/code> (what did that person say in ugly shirts). It was funny for the first time, but got bored for &lt;a class="link" href="https://notes.sibeliusp.com/cs136" >second time&lt;/a>. So do his other jokes.&lt;/p>
+&lt;p>Don&amp;rsquo;t have so many notes here since &lt;a class="link" href="https://www.student.cs.uwaterloo.ca/~cs135/" target="_blank" rel="noopener"
+>slides&lt;/a> are good enough to study from. (Just noticed that they change the layout to be &amp;lsquo;fancy&amp;rsquo; recently&amp;hellip;).&lt;/p>
+&lt;p>From &lt;a class="link" href="https://www.student.cs.uwaterloo.ca/~cs145/" target="_blank" rel="noopener"
+>CS 145&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>What if I start in CS 135 and decide it is too easy and want to switch into CS 145?&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>CS 135 deliberately starts off slowly and carefully, and ramps up later in the term; CS 145 starts off more rapidly, in part to give students enough information to make up their minds about it, and in part because the first midterm is scheduled after only three weeks of lecture. The transfer is thus difficult, but it is possible (if there is room); the earlier the better.&lt;/p>
+&lt;/blockquote>
+&lt;p>since the audience are from different backgrounds&amp;hellip; and cs 145 with &lt;a class="link" href="https://cormack.uwaterloo.ca/" target="_blank" rel="noopener"
+>Cormack&lt;/a> should be a self-learning process with assignments, as I &lt;a class="link" href="https://notes.sibeliusp.com/cs145/" >audited for several weeks&lt;/a> without doing any assignments. You cannot count on the lectures to be &lt;em>understandable&lt;/em>&amp;hellip;&lt;/p>
+&lt;h1 id="remarks">Remarks
+&lt;/h1>&lt;p>This course is about abstraction and ideas of functional programming with Racket. The goal is computer scientist, not computer programmer or software engineer. That&amp;rsquo;s why cs 135 differs from cs 137 for SE guys&amp;hellip;&lt;/p></description></item><item><title>MATH 135</title><link>https://notes.sibeliusp.com/math135/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/math135/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/math135.jpeg" alt="Featured image of post MATH 135" />&lt;p>During the first lecture, the &lt;a class="link" href="https://en.wikipedia.org/wiki/Theorem_on_friends_and_strangers" target="_blank" rel="noopener"
+>last example&lt;/a> is extremely hard to understand. Fortunately, it won&amp;rsquo;t be tested.&lt;/p>
+&lt;p>Then it will introduce some basic concepts like:&lt;/p>
+&lt;blockquote>
+&lt;/blockquote>
+&lt;p>Statement: a sentence that is True or False.
+Proposition: claim that requires a proof.
+Theorem: Strong proposition.
+Lemma: Weak proposition.
+Corollary: Follows immediately from a proposition.
+Axiom: A given truth.&lt;/p>
+&lt;p>Then the course covers number theory and so on. Let&amp;rsquo;s take a look at what math 145 (&lt;a class="link" href="http://www.math.uwaterloo.ca/~snew/" target="_blank" rel="noopener"
+>snew&lt;/a>) does:&lt;/p>
+&lt;ul>
+&lt;li>Logic and Proof (with many axioms introduced)&lt;/li>
+&lt;li>Rings, Fields, Orders and Induction (pmath 347/348)&lt;/li>
+&lt;li>Complex Numbers (pmath 352)&lt;/li>
+&lt;li>Cardinality&lt;/li>
+&lt;li>Factorization of Integers&lt;/li>
+&lt;li>Congruence and Modular Arithmetic&lt;/li>
+&lt;li>Cryptography (co 487)&lt;/li>
+&lt;li>Factorization in Rings (pmath 347)&lt;/li>
+&lt;li>Various Topics in Number Theory (pmath 340/440/441)&lt;/li>
+&lt;/ul>
+&lt;p>So this is pretty much a super set of math 135 in all aspects.&lt;/p>
+&lt;p>I don&amp;rsquo;t have much well-typed notes. Course notes together with lectures should be enough.&lt;/p>
+&lt;p>&lt;a class="link" href="https://cs.uwaterloo.ca/~cbruni/Math135Resources/index.php" target="_blank" rel="noopener"
+>Carmen&amp;rsquo;s notes&lt;/a>&lt;/p></description></item><item><title>MATH 137</title><link>https://notes.sibeliusp.com/math137/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/math137/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/math137.png" alt="Featured image of post MATH 137" />&lt;p>Taught by Jordan Hamilton, who is ~5.0 rate my prof. Extremely clear lecture notes and 1 bonus during exam. Bonus is like: calculating the limit of \(\lim_{x\to\infty}\sin^2x+\cos^2x\).&lt;/p>
+&lt;p>He also holds help sessions before exams, which might have similar questions on exams. Attend them if possible.&lt;/p></description></item><item><title>MUSIC 111</title><link>https://notes.sibeliusp.com/music111/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music111/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music111.jpg" alt="Featured image of post MUSIC 111" />&lt;p>Over the years, this course is taught by &lt;a class="link" href="https://www.trevorwagler.com/" target="_blank" rel="noopener"
+>Trevor Wagler&lt;/a>: French horn player and orchestrator. He is passionate about what he is teaching.&lt;/p>
+&lt;p>To be honest, this course is extremely easy if you have &lt;strong>a&lt;/strong> little background. So &amp;ldquo;this course is &lt;strong>not&lt;/strong> intended for students with &lt;em>more than&lt;/em> a minimal music background&amp;rdquo; from the official description.&lt;/p>
+&lt;p>Also note that it does not fulfil Music major or minor requirements though it can boost your average. If you have strong musical background, take &lt;a class="link" href="https://notes.sibeliusp.com/music270" >music 270&lt;/a> instead. 270 starts with a little bit rudiments and then jumps to the harmony part.&lt;/p>
+&lt;p>The notes above is based on the version of Fall 2020, taught by &lt;a class="link" href="https://uwaterloo.ca/grebel/people-profiles/karen-sunabacka" target="_blank" rel="noopener"
+>Karen Sunabacka&lt;/a>. This offering covers a bit more about tonality.&lt;/p></description></item><item><title>MUSIC 116</title><link>https://notes.sibeliusp.com/music116/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music116/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music.jpg" alt="Featured image of post MUSIC 116" />&lt;p>After I plan to pursue music minor, I find this credit is extremely useful!!&lt;/p>
+&lt;p>&lt;a class="link" href="https://uwaterloo.ca/music/university-choir-audition-details" target="_blank" rel="noopener"
+>University of Waterloo Choir&lt;/a> with &lt;a class="link" href="https://uwaterloo.ca/music/about/people/g4yun" target="_blank" rel="noopener"
+>Gerard Yun&lt;/a> and his &lt;a class="link" href="https://www.wlu.ca/academics/faculties/faculty-of-music/faculty-profiles/gerard-yun/index.html" target="_blank" rel="noopener"
+>WLU profile&lt;/a>. I will explain the first link &lt;a class="link" href="https://notes.sibeliusp.com/music117" >later&lt;/a>.&lt;/p>
+&lt;p>Previously I thought choir is just church music&amp;hellip; Then I found the choir can do so many things. We have done some jazz, and one arrangement from one Elgar&amp;rsquo;s ‘Enigma’ Variations (believe it&amp;rsquo;s finale) which is also studied in &lt;a class="link" href="https://notes.sibeliusp.com/music255" >music 255&lt;/a>.&lt;/p>
+&lt;p>You need to social in the Choir&amp;hellip; Talk with other people from different faculties, backgrounds. Music brings us together!&lt;/p>
+&lt;p>Also, there are &lt;a class="link" href="https://uwaterloo.ca/music/ensembles" target="_blank" rel="noopener"
+>other ensembles&lt;/a> available.&lt;/p></description></item><item><title>SPCOM 100</title><link>https://notes.sibeliusp.com/spcom100/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/spcom100/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/spcom100.jpg" alt="Featured image of post SPCOM 100" />&lt;ul>
+&lt;li>This course is boring. Just discuss at an extremely low level.&lt;/li>
+&lt;li>Don&amp;rsquo;t take it if you have other choices like spcom 223 or emls.&lt;/li>
+&lt;li>Take spcom 223 instead.&lt;/li>
+&lt;li>Remember you have to join the discussion during lectures to get participation marks.&lt;/li>
+&lt;li>No final.&lt;/li>
+&lt;/ul></description></item></channel></rss>

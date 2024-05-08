@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spring 2019 on Sibelius Peng</title><link>https://notes.sibeliusp.com/term/spring-2019/</link><description>Recent content in Spring 2019 on Sibelius Peng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.sibeliusp.com/term/spring-2019/index.xml" rel="self" type="application/rss+xml"/><item><title>AMATH 351</title><link>https://notes.sibeliusp.com/amath351/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/amath351/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/am351.png" alt="Featured image of post AMATH 351" />&lt;p>The notes above is Fall 2020 version. &lt;a class="link" href="https://pdf.sibeliusp.com/1195/amath351.pdf" target="_blank" rel="noopener"
+>Here&lt;/a> is the spring 2019 version.&lt;/p>
+&lt;p>Both set of notes are mostly following the textbook/coursenote. Below is a proof of a result.&lt;/p>
+&lt;p>Some good properties that prof assumed we know (maybe we don&amp;rsquo;t) from previous courses:&lt;/p>
+&lt;p>$$
+\mathcal L[tf(t)] = -{d\over ds}\mathcal L[f]
+$$&lt;/p>
+&lt;p>Proof:&lt;/p>
+&lt;p>$$
+\begin{aligned}
+{d\over ds} F(s) &amp;amp;= {d\over ds} \int _ 0^\infty e^{-st} f(t)dt \\
+&amp;amp;= \int _ 0^\infty {d\over ds}e^{-st}f(t)dt \\
+&amp;amp;= \int _ 0^\infty -t e^{-st}f(t)dt \\
+&amp;amp;= -\int _0 ^\infty e^{-st}(tf(t))dt \\
+&amp;amp;= -\mathcal L [tf(t)]
+\end{aligned}
+$$&lt;/p></description></item><item><title>AMATH 353</title><link>https://notes.sibeliusp.com/amath353/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/amath353/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/pde.jpg" alt="Featured image of post AMATH 353" />&lt;p>Taught by a &lt;a class="link" href="https://uwaterloo.ca/applied-mathematics/about/people/gsellaro" target="_blank" rel="noopener"
+>PhD graduate, Giuseppe&lt;/a> who just graduated.&lt;/p>
+&lt;p>He tried his best to make the course better: group discussion on midterms and so on. But final was hard because of tons of solving PDEs&amp;hellip; Maybe should make the participation as the bonus.&lt;/p>
+&lt;p>&lt;a class="link" href="https://pdf.sibeliusp.com/1195/amath353.pdf" target="_blank" rel="noopener"
+>Partial notes&lt;/a> and &lt;a class="link" href="https://pdf.sibeliusp.com/1195/amath353_final.pdf" target="_blank" rel="noopener"
+>final review&lt;/a>&lt;/p></description></item><item><title>CO 342</title><link>https://notes.sibeliusp.com/co342/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/co342/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/co342.jpg" alt="Featured image of post CO 342" />&lt;p>Taught by Penny, Cambridge PhD.&lt;/p>
+&lt;p>Content is hard, assignments are hard, while tests are ok. But if you can&amp;rsquo;t get the test questions after the first look, you won&amp;rsquo;t have time to finish them&amp;hellip;&lt;/p>
+&lt;p>She will be teaching 442 next term (Fall 2019).&lt;/p></description></item><item><title>CS 240</title><link>https://notes.sibeliusp.com/cs240/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs240/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs240.png" alt="Featured image of post CS 240" />&lt;p>It&amp;rsquo;s foundation, but content is quite dry and repeats some concepts from cs 136&amp;hellip; Also, the midterms are often 66 average&amp;hellip;
+Complete slides are on course website.&lt;/p>
+&lt;p>One thing which was funny by &lt;a class="link" href="https://cs.uwaterloo.ca/~eschost/" target="_blank" rel="noopener"
+>Éric Schost&lt;/a> was the Burrows-Wheeler Transform on the &lt;a class="link" href="https://isotropic.org/papers/chicken.pdf" target="_blank" rel="noopener"
+>chicken paper&lt;/a>.&lt;/p>
+&lt;p>Check &lt;a class="link" href="https://notes.sibeliusp.com/cs240e" >240e&lt;/a>?&lt;/p></description></item><item><title>CS 241</title><link>https://notes.sibeliusp.com/cs241/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs241/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs241.png" alt="Featured image of post CS 241" />&lt;p>The course is to introduce a basic compiler idea. Start from very beginning to final MIPS code which can be understood by your machine.&lt;/p>
+&lt;p>Assignments are code heavy, while tests are theory heavy&amp;hellip; and not that useful if you don&amp;rsquo;t go to theoretical computer science (cs 360/365, cs 442, cs 462 which are great but&amp;hellip;).&lt;/p>
+&lt;p>Be prepared for isolated assignments and tests&amp;hellip; They are completely different. Understand every concepts from lecture or tutorial if possible.&lt;/p>
+&lt;p>&lt;a class="link" href="https://cs.uwaterloo.ca/~cbruni/" target="_blank" rel="noopener"
+>Carmen&lt;/a> has his complete notes. AND &lt;a class="link" href="https://notes.sibeliusp.com/cs241e" >241e&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Update&lt;/strong>: (Mar 19, 2020) added an interesting video: &lt;a class="link" href="https://www.youtube.com/watch?v=MijmeoH9LT4" target="_blank" rel="noopener"
+>Computerphile on Unicode Encoding!&lt;/a>&lt;/p></description></item><item><title>CS 251</title><link>https://notes.sibeliusp.com/cs251/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs251/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/mips.png" alt="Featured image of post CS 251" />&lt;p>This time was with &lt;a class="link" href="https://cs.uwaterloo.ca/~oabari/" target="_blank" rel="noopener"
+>Omid&lt;/a>, who is passionate about his IoT. He mentioned his results several times during lecture to inspire students.&lt;/p>
+&lt;p>The course was still like that&amp;hellip; First, it covers some basic architecture, then how MIPS instructions are processed in an extremely low level architecture. Finally, covers some memory stuff: cache, TLB and so on.&lt;/p>
+&lt;p>The tips are:&lt;/p>
+&lt;ul>
+&lt;li>go to lectures&lt;/li>
+&lt;li>do assignments and understand all problems&lt;/li>
+&lt;li>exams are extremely similar to assignments&lt;/li>
+&lt;/ul>
+&lt;p>If you really find this course boring, you might want to consider courses from engineering faculty with similar topics, like ECE 222. They will be able to substitute cs 251 with two engineering hardware courses, which are, of course, more structured and interesting.&lt;/p>
+&lt;p>Below are the resources.&lt;/p>
+&lt;p>&lt;a href="https://courses.cs.washington.edu/courses/cse370/09sp/lectures/" >Similar Course in washington&lt;/a> &lt;/p>
+&lt;p>&lt;a href="http://logos.cs.uic.edu/366/notes/mips%20quick%20tutorial.htm">MIPS Quick Tutorial&lt;/a> (deprecated) &lt;/p>
+&lt;p>&lt;a href="https://www.reddit.com/r/uwaterloo/comments/4wcvst/for_those_of_you_in_cs_251_who_dont_understand/?st=J2LW4CST&amp;sh=7a641cfd">CS 251 saviour&lt;/a> (deprecated) &lt;/p>
+&lt;p>Note that from FALL 2019 (inclusive), cs251 no longer teaches MIPS. Instead, ARM will be used, which is similar to MIPS. Later in the future, cs 241 will also make changes, and so will cs350 later&amp;hellip; Below it&amp;rsquo;s a brief introduction to ARM from cs 251 website:&lt;/p>
+&lt;blockquote>
+&lt;p>This document is meant as a brief introduction to the ARM assembly (the Patterson and
+Hennessy book uses a subset of ARM that they call “LEG”; we’re really reviewing a subset
+of LEG here, but we’ll refer to it as “ARM”). Some parts of how the ARM instructions
+execute have been simplified, so this document should not be considered a definitive source
+for ARM. Chapter 2 of the course text describes ARM in more detail, and shows how to
+convert C-code into ARM assembly. You should probably read Chapter 2; however, you will
+not need to know the ARM language in the amount of detail given in Chapter 2 for CS 251,
+and the ARM described in this document is sufficient to complete Assignment 0.&lt;/p>
+&lt;/blockquote></description></item><item><title>CS 371</title><link>https://notes.sibeliusp.com/cs371/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs371/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/dft.png" alt="Featured image of post CS 371" />&lt;p>Taught by a PhD student, &lt;a class="link" href="http://www.math.uwaterloo.ca/~aasivas/" target="_blank" rel="noopener"
+>Ali&lt;/a>. Bonus is great: attend to 5 short quizzes, then you get 5 marks.&lt;/p>
+&lt;p>This course is math heavy (compared to cs 370, which is programming heavy). The content is a bit disorganized&amp;hellip;&lt;/p></description></item></channel></rss>
