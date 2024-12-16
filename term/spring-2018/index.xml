@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spring 2018 on Sibelius Peng</title><link>https://notes.sibeliusp.com/term/spring-2018/</link><description>Recent content in Spring 2018 on Sibelius Peng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.sibeliusp.com/term/spring-2018/index.xml" rel="self" type="application/rss+xml"/><item><title>CS 246</title><link>https://notes.sibeliusp.com/cs246/</link><pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs246/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs246.png" alt="Featured image of post CS 246" />&lt;p>Took with &lt;a class="link" href="https://cs.uwaterloo.ca/~vsakhnin/" target="_blank" rel="noopener"
+>Victoria&lt;/a>. Though she is an expert in SE, for the first time she taught this course, her notes was not clear on board&amp;hellip; For the last few lectures, she had some handouts to make the notes more readable.&lt;/p>
+&lt;p>Also, I believe this was the only term when the cheat sheet is allowed for CS 246.&lt;/p>
+&lt;p>Moreover, she held office hours everyday before Thursday midterm&amp;hellip;&lt;/p>
+&lt;p>And for A4, she extended for twice. Also, changed the distribution of the questions:&lt;/p>
+&lt;blockquote>
+&lt;p>We, the instructors, are aware of the effort you are putting into this course and since A4 and A5 are very close to the end of the term and the final exams, and we want to boost your motivation. We decided to credit 90% weight for your best three out of q1-q4 and 10% to your lowest question score out of q1-q4, if and only if all the 4 questions were submitted, otherwise the default marking scheme applies. Q5 is hand marked so it is out of the equation and we will use the default marking scheme for it.&lt;/p>
+&lt;/blockquote>
+&lt;p>Below are some useful links I used when I took the course.&lt;/p>
+&lt;h2 id="bashshell">Bash/Shell
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php" target="_blank" rel="noopener"
+>bash variables&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.macs.hw.ac.uk/~hwloidl/Courses/LinuxIntro/x945.html" target="_blank" rel="noopener"
+>shell scripting examples&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cnblogs.com/chengmo/archive/2013/01/17/2865479.html" target="_blank" rel="noopener"
+>AWK command&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://unix.stackexchange.com/questions/3320/what-are-the-fundamental-differences-between-the-mainstream-nix-shells" target="_blank" rel="noopener"
+>What are the fundamental differences between the mainstream *NIX shells?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/6697753/difference-between-single-and-double-quotes-in-bash" target="_blank" rel="noopener"
+>Single/double quote in bash&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html" target="_blank" rel="noopener"
+>creating and running a script&lt;/a>&lt;/li>
+&lt;li>[arithmetic expression](http:// mywiki.wooledge.org/ArithmeticExpression)&lt;/li>
+&lt;li>&lt;a class="link" href="http://manual.51yip.com/shell/" target="_blank" rel="noopener"
+>Advanced Bash-Scripting Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://landoflinux.com/linux_bash_scripting_read.html" target="_blank" rel="noopener"
+>Read cmd&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cyberciti.biz/tips/shell-scripting-bash-how-to-create-empty-temporary-file-quickly.html" target="_blank" rel="noopener"
+>create empty temporary files&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ss64.com/bash/who.html" target="_blank" rel="noopener"
+>&amp;lsquo;who&amp;rsquo; manual&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://tiswww.case.edu/php/chet/bash/bashref.html#Special-Parameters" target="_blank" rel="noopener"
+>Bash reference manual - special parameters&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.runoob.com/linux/linux-shell-test.html" target="_blank" rel="noopener"
+>Shell test cmd&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.mktemp.org/manual.html" target="_blank" rel="noopener"
+>mktemp manual&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.gnu.org/software/findutils/manual/html_node/find_html/egrep-regular-expression-syntax.html" target="_blank" rel="noopener"
+>egrep&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/806906/how-do-i-test-if-a-variable-is-a-number-in-bash" target="_blank" rel="noopener"
+>Test a var is a number in bash&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://askubuntu.com/questions/98782/how-to-run-an-alias-in-a-shell-script" target="_blank" rel="noopener"
+>alias&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/yooozooo/article/details/42496735" target="_blank" rel="noopener"
+>zip&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://blog.51cto.com/opsmysql/665990" target="_blank" rel="noopener"
+>PATH variable&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/u012005313/article/details/48948957" target="_blank" rel="noopener"
+>more on PATH&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://c.biancheng.net/cpp/view/2739.html" target="_blank" rel="noopener"
+>special parameters in shell&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/scp.html" target="_blank" rel="noopener"
+>scp&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/38932431/using-rm-rf-with-a-directory/38932718" target="_blank" rel="noopener"
+>rm -rf&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.gnu.org/software/cflow/manual/html_node/Source-of-wc-command.html" target="_blank" rel="noopener"
+>Source of the wc command&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="vim">Vim
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/" target="_blank" rel="noopener"
+>Learning vim progressively&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://vim-adventures.com/" target="_blank" rel="noopener"
+>vim adventures&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.fprintf.net/vimCheatSheet.html" target="_blank" rel="noopener"
+>vim cmd cheat sheet&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cnblogs.com/wanyao/archive/2011/05/31/2064857.html" target="_blank" rel="noopener"
+>multiple screens in vim&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="c-basic">C++ basic
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/1164266/why-are-arrays-of-references-illegal" target="_blank" rel="noopener"
+>array of references?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/doc/tutorial/exceptions/" target="_blank" rel="noopener"
+>exceptions&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.runoob.com/cplusplus/cpp-classes-objects.html" target="_blank" rel="noopener"
+>class, objects&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/2797813/how-to-convert-a-command-line-argument-to-int" target="_blank" rel="noopener"
+>Convert cmd line args into int&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/" target="_blank" rel="noopener"
+>Initializer list&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://alfredjava.wordpress.com/2008/07/08/class-vs-object-vs-instance/" target="_blank" rel="noopener"
+>class vs object vs instances&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/forum/beginner/43072/" target="_blank" rel="noopener"
+>postfix operator overloading&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/ddupd/article/details/38053159" target="_blank" rel="noopener"
+>friend&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cnblogs.com/hazir/p/new_and_delete.html" target="_blank" rel="noopener"
+>new/delete&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cnblogs.com/wanyao/archive/2011/06/27/2091666.html" target="_blank" rel="noopener"
+>main program&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/u013796074/article/details/54099845" target="_blank" rel="noopener"
+>typeinfo&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/30250934/how-to-end-c-code" target="_blank" rel="noopener"
+>how to end c++ code&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/touzani/article/details/1637776" target="_blank" rel="noopener"
+>namespace&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://theos.in/windows-xp/howto-write-program-to-calculate-tomorrows-date/" target="_blank" rel="noopener"
+>C++ program to calculate tomorrow’s date&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://softwareengineering.stackexchange.com/questions/171650/is-there-any-difference-between-return-n-and-exitn-in-c" target="_blank" rel="noopener"
+>return/exit&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/lzuacm/article/details/52704931" target="_blank" rel="noopener"
+>to_string&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/reference/ios/ios/exceptions/" target="_blank" rel="noopener"
+>ios::exceptions&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/30943199/how-to-check-if-a-value-exists-within-a-c-map" target="_blank" rel="noopener"
+>value exists in map&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/495021/why-can-templates-only-be-implemented-in-the-header-file" target="_blank" rel="noopener"
+>Why can templates only be implemented in the header file?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://wiki.haskell.org/Reducible_expression" target="_blank" rel="noopener"
+>reducible expression&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="streams">streams
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://srfi.schemers.org/srfi-41/srfi-41.html" target="_blank" rel="noopener"
+>streams&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/27770050/using-stdostream-as-argument-to-a-print-function" target="_blank" rel="noopener"
+>Using std::ostream as argument to a print function&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/14543363/output-stream-as-class-member" target="_blank" rel="noopener"
+>Output stream as class member&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/20257836/c-ostream-implicitly-deleted-with-template" target="_blank" rel="noopener"
+>deleted function in ostream&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/5131647/why-would-we-call-cin-clear-and-cin-ignore-after-reading-input" target="_blank" rel="noopener"
+>cin clear, ignore&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/reference/fstream/ifstream/ifstream/" target="_blank" rel="noopener"
+>ifstream&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/reference/sstream/stringstream/" target="_blank" rel="noopener"
+>stringstream&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/yc_8301/article/details/3713132" target="_blank" rel="noopener"
+>vptr, vtable&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="big-5">Big 5
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.cnblogs.com/cutepig/archive/2009/01/14/1375917.html" target="_blank" rel="noopener"
+>explicit ctor&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/2417065/does-the-default-constructor-initialize-built-in-types?utm_medium=organic&amp;amp;utm_source=google_rich_qa&amp;amp;utm_campaign=google_rich_qa" target="_blank" rel="noopener"
+>Does the default constructor initialize built-in types?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.geeksforgeeks.org/constructors-c/" target="_blank" rel="noopener"
+>ctors in c++&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/forum/articles/17820/" target="_blank" rel="noopener"
+>Member Initialization List over Assignment&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="didnt-compile">didn&amp;rsquo;t compile
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/aiwoziji13/article/details/7330333" target="_blank" rel="noopener"
+>undefined reference to&amp;hellip;&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/6847105/g-compile-error/6847145" target="_blank" rel="noopener"
+>g++, another undefined reference&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/625799/resolve-build-errors-due-to-circular-dependency-amongst-classes" target="_blank" rel="noopener"
+>circular dependency&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/2545720/error-default-argument-given-for-parameter-1" target="_blank" rel="noopener"
+>default parameter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/871264/what-does-operator-must-be-a-non-static-member-mean" target="_blank" rel="noopener"
+>What does “operator = must be a non-static member” mean?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/14543363/output-stream-as-class-member" target="_blank" rel="noopener"
+>Output stream as class member&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/6483453/weird-sigsegv-segmentation-fault-using-enums" target="_blank" rel="noopener"
+>Weird SIGSEGV (Segmentation fault) using enums&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/love_gaohz/article/details/6597857" target="_blank" rel="noopener"
+>More on seg fault&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="g">g++
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#Warning-Options" target="_blank" rel="noopener"
+>Warning options&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.google.ca/search?q=gcc&amp;#43;-wall&amp;#43;%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&amp;amp;oq=gcc&amp;#43;-wall&amp;#43;%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&amp;amp;aqs=chrome..69i57.6527j0j7&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8" target="_blank" rel="noopener"
+>g++ -wall&lt;/a> (warn all)&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/attagain/article/details/18655485" target="_blank" rel="noopener"
+>g++/gcc compiler optimization&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="makefile">Makefile
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.cs.colostate.edu/~cs157/LectureMakefile.pdf" target="_blank" rel="noopener"
+>tutorial on makefile&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/12057852/multiple-makefiles-in-one-directory" target="_blank" rel="noopener"
+>Multiple makefiles in one dir&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html" target="_blank" rel="noopener"
+>phony target&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="uml">UML
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.processon.com/diagraming/5b3faebce4b0a6efd4754612" target="_blank" rel="noopener"
+>process on&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.umlet.com/umletino/umletino.html" target="_blank" rel="noopener"
+>umletino&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/xww810319/article/details/17916345" target="_blank" rel="noopener"
+>13 recommended UML tools by experts&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="projects">Projects
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://luckytoilet.wordpress.com/2011/05/27/coding-a-tetris-ai-using-a-genetic-algorithm/" target="_blank" rel="noopener"
+>Coding a Tetris AI using a Genetic Algorithm&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener"
+>git guide&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank" rel="noopener"
+>first time git set-up&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" target="_blank" rel="noopener"
+>git remote&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/19216411/how-do-i-pull-files-from-remote-without-overwriting-local-files" target="_blank" rel="noopener"
+>How do I pull files from remote without overwriting local files?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/DragonCheng/article/details/2781" target="_blank" rel="noopener"
+>singleton&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>EASIA 202R</title><link>https://notes.sibeliusp.com/easia202r/</link><pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/easia202r/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/easia.jpg" alt="Featured image of post EASIA 202R" />&lt;p>This course is taught by a single instructor all over the terms. Some said it&amp;rsquo;s easy to get 98&amp;hellip; I am not sure why she gave me such a low mark&amp;hellip;&lt;/p>
+&lt;p>Anyway, just prepare the slides and textbooks before the final&amp;hellip;&lt;/p>
+&lt;p>Here is my &lt;a class="link" href="https://pdf.sibeliusp.com/1185/easia202r/slides.pdf" target="_blank" rel="noopener"
+>presentation&lt;/a>.&lt;/p>
+&lt;p>Also, we were required to submit a &lt;a class="link" href="https://pdf.sibeliusp.com/1185/easia202r/China_in_ten_words.pdf" target="_blank" rel="noopener"
+>book review&lt;/a>. I chose &lt;em>China in Ten Words&lt;/em> by Yu Hua. Here is the &lt;a class="link" href="https://pdf.sibeliusp.com/1185/easia202r/after_thoughts.pdf" target="_blank" rel="noopener"
+>reflection&lt;/a>.&lt;/p></description></item><item><title>MATH 235</title><link>https://notes.sibeliusp.com/math235/</link><pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/math235/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/math136.png" alt="Featured image of post MATH 235" />&lt;p>Taught by &lt;a class="link" href="https://uwaterloo.ca/math/about/people/rgarbary" target="_blank" rel="noopener"
+>Robert Garbary&lt;/a>. Also hold an online session at the same time, and hold a Skype office hours for them&amp;hellip;&lt;/p>
+&lt;p>His notes was summarized, so no need to copy tons of examples.&lt;/p>
+&lt;p>He also made a joke with his mic. He went outside to drink some water. When he was still outside the classroom, he said, with his mic on:&amp;ldquo;I know you can hear me.&amp;rdquo;&lt;/p>
+&lt;h1 id="remarks">Remarks
+&lt;/h1>&lt;p>235 is more well-structured than 136&amp;hellip; If you screwed up with 136, 235 is still ok.&lt;/p>
+&lt;h1 id="notes">Notes
+&lt;/h1>&lt;p>I started to learn LaTeX from this term&amp;hellip; So here is a set of &lt;a class="link" href="https://pdf.sibeliusp.com/1185/math235/math235.pdf" target="_blank" rel="noopener"
+>compact notes&lt;/a>.&lt;/p></description></item><item><title>MATH 237</title><link>https://notes.sibeliusp.com/math237/</link><pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/math237/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/math237.jpg" alt="Featured image of post MATH 237" />&lt;p>Taught by &lt;a class="link" href="http://www.math.uwaterloo.ca/~karigian/" target="_blank" rel="noopener"
+>Spiro&lt;/a>. You can tell he is knowledgeable and ways he talks.&lt;/p>
+&lt;p>He coordinated math 237 for this term (and last term). The biggest change is that he no longer used the official coursenote, which is full of errors and bad proofs. Instead, he used Vector Calculus. Also, during these two terms, 12 assignments are required to be submitted, even during midterm week&amp;hellip; Assignments did give a taste of how exams look like, so exams are full of calculations with little proofs.&lt;/p>
+&lt;p>His research interests are Geometry &amp;amp; Topology (maybe more), then he taught pmath 365 during next available term (1191). However, it seems that the lecture was not easy to follow&amp;hellip;&lt;/p>
+&lt;p>Many math 148 students don&amp;rsquo;t like this course since drawing \(z=x^2+y^2\) is boring&amp;hellip; They would rather do proofs&amp;hellip;&lt;/p>
+&lt;p>As you might see from &lt;a class="link" href="../MATH235/" >math 235&lt;/a>, I learnt LaTeX. So here are some results:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://pdf.sibeliusp.com/1185/math237.pdf" target="_blank" rel="noopener"
+>&lt;del>notes?&lt;/del>&lt;/a> (This is for math136/235).&lt;/li>
+&lt;li>&lt;a class="link" href="https://pdf.sibeliusp.com/1185/math237_more.pdf" target="_blank" rel="noopener"
+>Two results&lt;/a> from UW course instructions&lt;/li>
+&lt;/ul></description></item><item><title>PHYS 112</title><link>https://notes.sibeliusp.com/phys112/</link><pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/phys112/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/phys112.jpg" alt="Featured image of post PHYS 112" />&lt;p>Taught by Parisa Bohlouli-Zanjani, (her email: &lt;a class="link" href="mailto:p2bohlou@uwaterloo.ca" >p2bohlou@uwaterloo.ca&lt;/a>). Couldn&amp;rsquo;t find the profile in physics website&amp;hellip;&lt;/p>
+&lt;p>If she could teach me phys 111, it would be awesome&amp;hellip;&lt;/p>
+&lt;h1 id="remarks">Remarks
+&lt;/h1>&lt;p>This course deliberately avoid the proofs and derivations of formulas, then the only thing left is to apply the right formula to the question without any further understanding.&lt;/p></description></item><item><title>STAT 230</title><link>https://notes.sibeliusp.com/stat230/</link><pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/stat230/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/stat230.png" alt="Featured image of post STAT 230" />&lt;p>They deliberately made the exams (midterms and final) hard&amp;hellip; Some years ago (at least before 2018), this course is considered as a bird course.&lt;/p>
+&lt;p>Just understand every problem in all chapters.&lt;/p>
+&lt;p>Oh, if you want to take advanced (stat 240), not that it will only be offered during Fall. The concepts are much much more abstract, like sample spaces, probability spaces, closed sets. FAIRLY ABSTRACT. Then you would be interested in stat 901: Theory of Probability 1.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fall 2019 on Sibelius Peng</title><link>https://notes.sibeliusp.com/term/fall-2019/</link><description>Recent content in Fall 2019 on Sibelius Peng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.sibeliusp.com/term/fall-2019/index.xml" rel="self" type="application/rss+xml"/><item><title>AMATH 271</title><link>https://notes.sibeliusp.com/amath271/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/amath271/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/am271.jpg" alt="Featured image of post AMATH 271" />&lt;p>This course gives a broad introduction to classical mechanics and a brief introduction to special relativity. It is math heavy&amp;hellip; and it covers a bit more content than &lt;a class="link" href="https://ugradcalendar.uwaterloo.ca/courses/PHYS/263" target="_blank" rel="noopener"
+>PHYS 263&lt;/a>. So I would recomment this course over phys 263.&lt;/p>
+&lt;p>Topics:&lt;/p>
+&lt;ul>
+&lt;li>Newton&amp;rsquo;s Law of Motion&lt;/li>
+&lt;li>Projectiles and Charged Particles&lt;/li>
+&lt;li>Momentum and Angular Momentum&lt;/li>
+&lt;li>Energy&lt;/li>
+&lt;li>Oscillations&lt;/li>
+&lt;li>Calculus of Variations (brief) &amp;amp; Lagrange Equations&lt;/li>
+&lt;li>Two-Body Problem&lt;/li>
+&lt;li>Hamiltonian Mechanics&lt;/li>
+&lt;li>Special Relativity&lt;/li>
+&lt;/ul>
+&lt;p>The first several chapters should be familiar if you have taken first year physics and some second year amath courses (231, 251). Calculus of Variations is an inspiring idea which is the base of Lagrange Equations. If you find it interesting, consider taking &lt;a class="link" href="https://ugradcalendar.uwaterloo.ca/courses/AMATH/456" target="_blank" rel="noopener"
+>AMATH 456&lt;/a>. Two-Body Problem is indeed interesting, which gives another rigorous view of what we have learnt in high school. I guess AMATH 475 (General Relativity) would review special relativity at the begining, so don&amp;rsquo;t worry too much if you didn&amp;rsquo;t learn it well. If you find classical mechanics interesting, consider taking &lt;em>Intermediate Classical Mechanics&lt;/em>, &lt;a class="link" href="https://ugradcalendar.uwaterloo.ca/courses/PHYS/363" target="_blank" rel="noopener"
+>PHYS 363&lt;/a>, but remember to choose a good prof.&lt;/p>
+&lt;p>Complete learning notes can be found here: &lt;a class="link" href="https://pdf.sibeliusp.com/1199/am271_view.pdf" target="_blank" rel="noopener"
+>online view version&lt;/a> and &lt;a class="link" href="https://pdf.sibeliusp.com/1199/am271_print.pdf" target="_blank" rel="noopener"
+>print version&lt;/a>.&lt;/p></description></item><item><title>AMATH 391</title><link>https://notes.sibeliusp.com/amath391/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/amath391/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/wavelet.png" alt="Featured image of post AMATH 391" />&lt;p>This course spent a lot of time on introducing the foundation of wavelets: inner product space, Fourier and so on. Almost 1/4 of the course. But it is pretty cool when it comes to using wavelet to process the signal.&lt;/p>
+&lt;p>Lots of the materials are just for information due to the nature of this introductory course. I really don&amp;rsquo;t have much time to go through all of these supplementary materials due to the limitation of time, but they are good to know if you are really interested in signal analysis.&lt;/p>
+&lt;p>&lt;a class="link" href="https://pdf.sibeliusp.com/1199/amath391mid.pdf" target="_blank" rel="noopener"
+>Midterm review&lt;/a>.&lt;/p>
+&lt;p>Final review: See the top link.&lt;/p>
+&lt;p>&lt;a class="link" href="http://links.uwaterloo.ca/amath391" target="_blank" rel="noopener"
+>ERV&amp;rsquo;s lecture notes&lt;/a>&lt;/p></description></item></channel></rss>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cs on Sibelius Peng</title><link>https://notes.sibeliusp.com/subject/cs/</link><description>Recent content in Cs on Sibelius Peng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.sibeliusp.com/subject/cs/index.xml" rel="self" type="application/rss+xml"/><item><title>CS 482</title><link>https://notes.sibeliusp.com/cs482/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs482/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs482.jpg" alt="Featured image of post CS 482" /></description></item><item><title>CS 146</title><link>https://notes.sibeliusp.com/cs146/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs146/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs146.jpeg" alt="Featured image of post CS 146" />&lt;p>This course is pretty much like Lushman&amp;rsquo;s &lt;a class="link" href="https://notes.sibeliusp.com/cs246e" >cs 246e&lt;/a> style: lots of things, hard, time-consuming, but learn a lot definitely. (I am creating a circular argument)&lt;/p>
+&lt;p>This course covers all &lt;a class="link" href="https://notes.sibeliusp.com/cs136" >cs 136&lt;/a> contents in about half of the course. Then the rest discusses more Racket, some &lt;a class="link" href="https://notes.sibeliusp.com/cs245" >cs 245&lt;/a> stuff (program verification), baby compiler and so on. The compiler stuff is almost the same as the beginning and end of &lt;a class="link" href="https://notes.sibeliusp.com/cs241" >cs 241&lt;/a>. So Brad recommends taking &lt;a class="link" href="https://notes.sibeliusp.com/cs241e" >cs 241e&lt;/a> instead of cs 241.&lt;/p>
+&lt;p>The course frequently switches gears, i.e., jump from topics to topics, so doing the assignments will help you keep up with the lecture material.&lt;/p></description></item><item><title>CS 360</title><link>https://notes.sibeliusp.com/cs360/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs360/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs360.png" alt="Featured image of post CS 360" />&lt;p>Textbook: J. Watrous, &lt;a class="link" href="https://student.cs.uwaterloo.ca/~cs360/cs360notes.pdf" target="_blank" rel="noopener"
+>Introduction to the Theory of Computing: Lecture notes for CS 360&lt;/a>, version of June 27, 2017. (A Creative Commons license applies; see the cover page.)&lt;/p>
+&lt;p>This term&amp;rsquo;s offering was basically following Watrous&amp;rsquo; text, accompanied by some complementary notes and videos. The assignments are heavily weighted, 63%. To explore more on theoretical computer science, consider taking &lt;a class="link" href="https://notes.sibeliusp.com/cs365" >cs 365&lt;/a> and cs 462.&lt;/p></description></item><item><title>CS 365</title><link>https://notes.sibeliusp.com/cs365/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs365/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs365.jpg" alt="Featured image of post CS 365" />&lt;p>&lt;a class="link" href="https://cs.uwaterloo.ca/~eblais/cs365/" target="_blank" rel="noopener"
+>Prof&amp;rsquo;s notes&lt;/a> is quite incomplete,
+by which I mean he deliberately left out the proof and let the students fill in
+as a part of the weekly report (40% of this course).&lt;/p>
+&lt;p>Some of the proofs of the results in this course can be found in &lt;a class="link" href="https://notes.sibeliusp.com/cs360" >cs 360&lt;/a>. This course covers space complexity which cs 360 doesn&amp;rsquo;t.&lt;/p></description></item><item><title>CS 479</title><link>https://notes.sibeliusp.com/cs479/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs479/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs479.jpg" alt="Featured image of post CS 479" />&lt;p>This course is advertised as theoretical neuroscience, and uses &lt;a class="link" href="https://mitpress.mit.edu/books/theoretical-neuroscience" target="_blank" rel="noopener"
+>&lt;em>Theoretical Neuroscience&lt;/em>&lt;/a> as textbook. However, only chapter 1 of this textbook is covered as theoretical material, the rest like information theory was not covered&amp;hellip; This course is more like a standard survey of networks in machine learning, all types of networks.&lt;/p>
+&lt;p>Note that in CNN part (section 7,3), I didn&amp;rsquo;t complete the rest of notes because he was reading off the cs231n slides, stanford course. To obtain a full understanding, you can read their &lt;a class="link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener"
+>lecture notes&lt;/a>.&lt;/p></description></item><item><title>CS 485</title><link>https://notes.sibeliusp.com/cs485/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs485/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs485.png" alt="Featured image of post CS 485" />&lt;p>The title of CS 685 is &amp;ldquo;Machine Learning&amp;rdquo; which doesn&amp;rsquo;t show the actual content of this course&amp;hellip; However, the title of CS 485 reveals the actual content: &amp;ldquo;Statistical and Computational Foundations of Machine Learning&amp;rdquo;. In my opinion, this course is more like a statistical learning theory, not machine learning, because machine learning is more like CS 480 and so on, which just does some magic&amp;hellip; Also, Shai&amp;rsquo;s 245 covers Kolmogorov complexity, which has neat application in this course, though he mentioned in CS 245 (winter 2021), not in CS 485.&lt;/p></description></item><item><title>CS 885</title><link>https://notes.sibeliusp.com/cs885/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs885/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs885.jpg" alt="Featured image of post CS 885" />&lt;p>Notes taken from &lt;a class="link" href="https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-spring20/index.html" target="_blank" rel="noopener"
+>Pascal Poupart&amp;rsquo;s CS 885&lt;/a>&lt;/p>
+&lt;p>This course is really solid: its contents, mathematical foundations, theorem/formula derivations and so on. It has 2-3 assignments and projects/presentations like normal grad course.&lt;/p>
+&lt;h1 id="related-links">Related Links
+&lt;/h1>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.davidsilver.uk/teaching/" target="_blank" rel="noopener"
+>David Silver&amp;rsquo;s Delivery&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/" target="_blank" rel="noopener"
+>Morvan&amp;rsquo;s RL&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>CS 341</title><link>https://notes.sibeliusp.com/cs341/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs341/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/alg.png" alt="Featured image of post CS 341" />&lt;p>This midterm was brutal&amp;hellip; avg was about 65&amp;hellip; and last term was about 78, and added 3 marks for everyone&amp;hellip;&lt;/p>
+&lt;p>The material (reduction, algorithms, complexity theory) is pretty standard and straightforward if you have a good prof like in Fall 2019.&lt;/p>
+&lt;p>The notes above is generated from Spring 2021 offering.&lt;/p></description></item><item><title>CS 350</title><link>https://notes.sibeliusp.com/cs350/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs350/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/os.png" alt="Featured image of post CS 350" />&lt;p>Check the &lt;a class="link" href="https://mdf.sibeliusp.com/1201/cs350help/" target="_blank" rel="noopener"
+>help page&lt;/a>.&lt;/p>
+&lt;p>This course is not hard to get good marks if you study well for midterm (study the past exams) and spend &lt;strong>a lot of time&lt;/strong> on debugging assignments&amp;hellip; Since clear guides are provided for assignments, then your job is just to follow the guides and then debug&amp;hellip;&lt;/p>
+&lt;p>This course, in my opinion, is theory heavy, or memorization heavy&amp;hellip; There are lots of mechanics behind OS. This course introduces some basic concepts behind it and lets us build some features top on a degraded OS provided by Harvard&amp;hellip;&lt;/p>
+&lt;p>&lt;strong>Note from Spring/Fall 2020&lt;/strong>: From the course website,&lt;/p>
+&lt;blockquote>
+&lt;p>Course content is not changing from previous terms. While it was our intention to begin a more serious overhaul of the course, starting with the assignments this year, it does not make sense to start this process under these circumstances. If you have previously taken the course, the assignments have not changed.&lt;/p>
+&lt;/blockquote>
+&lt;p>Because of the pandemic, course&amp;rsquo;s structure cannot be changed. Moreover, midterms/finals are replaced by open-book quizzes/assessments. Therefore, then students really do not need to memorize all things like we did previously for midterms or final.&lt;/p>
+&lt;p>&lt;a class="link" href="https://youtu.be/Q07PhW5sCEk" target="_blank" rel="noopener"
+>MIT on timesharing&lt;/a>&lt;/p></description></item><item><title>CS 240</title><link>https://notes.sibeliusp.com/cs240/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs240/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs240.png" alt="Featured image of post CS 240" />&lt;p>It&amp;rsquo;s foundation, but content is quite dry and repeats some concepts from cs 136&amp;hellip; Also, the midterms are often 66 average&amp;hellip;
+Complete slides are on course website.&lt;/p>
+&lt;p>One thing which was funny by &lt;a class="link" href="https://cs.uwaterloo.ca/~eschost/" target="_blank" rel="noopener"
+>Éric Schost&lt;/a> was the Burrows-Wheeler Transform on the &lt;a class="link" href="https://isotropic.org/papers/chicken.pdf" target="_blank" rel="noopener"
+>chicken paper&lt;/a>.&lt;/p>
+&lt;p>Check &lt;a class="link" href="https://notes.sibeliusp.com/cs240e" >240e&lt;/a>?&lt;/p></description></item><item><title>CS 241</title><link>https://notes.sibeliusp.com/cs241/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs241/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs241.png" alt="Featured image of post CS 241" />&lt;p>The course is to introduce a basic compiler idea. Start from very beginning to final MIPS code which can be understood by your machine.&lt;/p>
+&lt;p>Assignments are code heavy, while tests are theory heavy&amp;hellip; and not that useful if you don&amp;rsquo;t go to theoretical computer science (cs 360/365, cs 442, cs 462 which are great but&amp;hellip;).&lt;/p>
+&lt;p>Be prepared for isolated assignments and tests&amp;hellip; They are completely different. Understand every concepts from lecture or tutorial if possible.&lt;/p>
+&lt;p>&lt;a class="link" href="https://cs.uwaterloo.ca/~cbruni/" target="_blank" rel="noopener"
+>Carmen&lt;/a> has his complete notes. AND &lt;a class="link" href="https://notes.sibeliusp.com/cs241e" >241e&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Update&lt;/strong>: (Mar 19, 2020) added an interesting video: &lt;a class="link" href="https://www.youtube.com/watch?v=MijmeoH9LT4" target="_blank" rel="noopener"
+>Computerphile on Unicode Encoding!&lt;/a>&lt;/p></description></item><item><title>CS 251</title><link>https://notes.sibeliusp.com/cs251/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs251/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/mips.png" alt="Featured image of post CS 251" />&lt;p>This time was with &lt;a class="link" href="https://cs.uwaterloo.ca/~oabari/" target="_blank" rel="noopener"
+>Omid&lt;/a>, who is passionate about his IoT. He mentioned his results several times during lecture to inspire students.&lt;/p>
+&lt;p>The course was still like that&amp;hellip; First, it covers some basic architecture, then how MIPS instructions are processed in an extremely low level architecture. Finally, covers some memory stuff: cache, TLB and so on.&lt;/p>
+&lt;p>The tips are:&lt;/p>
+&lt;ul>
+&lt;li>go to lectures&lt;/li>
+&lt;li>do assignments and understand all problems&lt;/li>
+&lt;li>exams are extremely similar to assignments&lt;/li>
+&lt;/ul>
+&lt;p>If you really find this course boring, you might want to consider courses from engineering faculty with similar topics, like ECE 222. They will be able to substitute cs 251 with two engineering hardware courses, which are, of course, more structured and interesting.&lt;/p>
+&lt;p>Below are the resources.&lt;/p>
+&lt;p>&lt;a href="https://courses.cs.washington.edu/courses/cse370/09sp/lectures/" >Similar Course in washington&lt;/a> &lt;/p>
+&lt;p>&lt;a href="http://logos.cs.uic.edu/366/notes/mips%20quick%20tutorial.htm">MIPS Quick Tutorial&lt;/a> (deprecated) &lt;/p>
+&lt;p>&lt;a href="https://www.reddit.com/r/uwaterloo/comments/4wcvst/for_those_of_you_in_cs_251_who_dont_understand/?st=J2LW4CST&amp;sh=7a641cfd">CS 251 saviour&lt;/a> (deprecated) &lt;/p>
+&lt;p>Note that from FALL 2019 (inclusive), cs251 no longer teaches MIPS. Instead, ARM will be used, which is similar to MIPS. Later in the future, cs 241 will also make changes, and so will cs350 later&amp;hellip; Below it&amp;rsquo;s a brief introduction to ARM from cs 251 website:&lt;/p>
+&lt;blockquote>
+&lt;p>This document is meant as a brief introduction to the ARM assembly (the Patterson and
+Hennessy book uses a subset of ARM that they call “LEG”; we’re really reviewing a subset
+of LEG here, but we’ll refer to it as “ARM”). Some parts of how the ARM instructions
+execute have been simplified, so this document should not be considered a definitive source
+for ARM. Chapter 2 of the course text describes ARM in more detail, and shows how to
+convert C-code into ARM assembly. You should probably read Chapter 2; however, you will
+not need to know the ARM language in the amount of detail given in Chapter 2 for CS 251,
+and the ARM described in this document is sufficient to complete Assignment 0.&lt;/p>
+&lt;/blockquote></description></item><item><title>CS 371</title><link>https://notes.sibeliusp.com/cs371/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs371/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/dft.png" alt="Featured image of post CS 371" />&lt;p>Taught by a PhD student, &lt;a class="link" href="http://www.math.uwaterloo.ca/~aasivas/" target="_blank" rel="noopener"
+>Ali&lt;/a>. Bonus is great: attend to 5 short quizzes, then you get 5 marks.&lt;/p>
+&lt;p>This course is math heavy (compared to cs 370, which is programming heavy). The content is a bit disorganized&amp;hellip;&lt;/p></description></item><item><title>CS 245</title><link>https://notes.sibeliusp.com/cs245/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs245/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs245.jpg" alt="Featured image of post CS 245" />&lt;p>Took with &lt;a class="link" href="https://cs.uwaterloo.ca/~lila/" target="_blank" rel="noopener"
+>Lila Kari&lt;/a>, who is famous is her research area: DNA. Then she spent 2 lectures on DNA.&lt;/p>
+&lt;p>Her slides are clear, but you should attend lectures to see how she tackled the examples since there are no solutions to examples on slides.&lt;/p>
+&lt;p>I think, in general, she made the course more organized.&lt;/p>
+&lt;p>On top of reading the slides, I also watched the videos of &lt;a class="link" href="https://notes.sibeliusp.com/cs245e" >cs 245e&lt;/a>.&lt;/p></description></item><item><title>CS 245E</title><link>https://notes.sibeliusp.com/cs245e/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs245e/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs245e.jpg" alt="Featured image of post CS 245E" />&lt;p>The videos by &lt;a class="link" href="https://cs.uwaterloo.ca/~shai/" target="_blank" rel="noopener"
+>Shai&lt;/a> can be found on &lt;a class="link" href="https://www.youtube.com/playlist?list=PL2cqwPeM9PtMqpoeaD5oV2cSIpn5dhJI3" target="_blank" rel="noopener"
+>youtube&lt;/a>. So this course is not officially offered&amp;hellip;&lt;/p></description></item><item><title>CS 246E</title><link>https://notes.sibeliusp.com/cs246e/</link><pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs246e/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/vim.png" alt="Featured image of post CS 246E" />&lt;p>This course is pretty much like Lushman&amp;rsquo;s &lt;a class="link" href="https://notes.sibeliusp.com/cs146" >cs 146&lt;/a> style: lots of things, hard, time-consuming, but learn a lot definitely. If you enjoy cs146, definitely consider taking cs246e.&lt;/p>
+&lt;p>The course is well-structed. It proposes several problems, and solves them to introduce new concepts.&lt;/p>
+&lt;p>About 50% more contents than &lt;a class="link" href="https://notes.sibeliusp.com/cs246" >cs 246&lt;/a>&amp;hellip; and the final project is VIM (if they didn&amp;rsquo;t change it).&lt;/p>
+&lt;p>Start the assignments early and go to office hours.&lt;/p></description></item><item><title>CS 246</title><link>https://notes.sibeliusp.com/cs246/</link><pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs246/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs246.png" alt="Featured image of post CS 246" />&lt;p>Took with &lt;a class="link" href="https://cs.uwaterloo.ca/~vsakhnin/" target="_blank" rel="noopener"
+>Victoria&lt;/a>. Though she is an expert in SE, for the first time she taught this course, her notes was not clear on board&amp;hellip; For the last few lectures, she had some handouts to make the notes more readable.&lt;/p>
+&lt;p>Also, I believe this was the only term when the cheat sheet is allowed for CS 246.&lt;/p>
+&lt;p>Moreover, she held office hours everyday before Thursday midterm&amp;hellip;&lt;/p>
+&lt;p>And for A4, she extended for twice. Also, changed the distribution of the questions:&lt;/p>
+&lt;blockquote>
+&lt;p>We, the instructors, are aware of the effort you are putting into this course and since A4 and A5 are very close to the end of the term and the final exams, and we want to boost your motivation. We decided to credit 90% weight for your best three out of q1-q4 and 10% to your lowest question score out of q1-q4, if and only if all the 4 questions were submitted, otherwise the default marking scheme applies. Q5 is hand marked so it is out of the equation and we will use the default marking scheme for it.&lt;/p>
+&lt;/blockquote>
+&lt;p>Below are some useful links I used when I took the course.&lt;/p>
+&lt;h2 id="bashshell">Bash/Shell
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php" target="_blank" rel="noopener"
+>bash variables&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.macs.hw.ac.uk/~hwloidl/Courses/LinuxIntro/x945.html" target="_blank" rel="noopener"
+>shell scripting examples&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cnblogs.com/chengmo/archive/2013/01/17/2865479.html" target="_blank" rel="noopener"
+>AWK command&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://unix.stackexchange.com/questions/3320/what-are-the-fundamental-differences-between-the-mainstream-nix-shells" target="_blank" rel="noopener"
+>What are the fundamental differences between the mainstream *NIX shells?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/6697753/difference-between-single-and-double-quotes-in-bash" target="_blank" rel="noopener"
+>Single/double quote in bash&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html" target="_blank" rel="noopener"
+>creating and running a script&lt;/a>&lt;/li>
+&lt;li>[arithmetic expression](http:// mywiki.wooledge.org/ArithmeticExpression)&lt;/li>
+&lt;li>&lt;a class="link" href="http://manual.51yip.com/shell/" target="_blank" rel="noopener"
+>Advanced Bash-Scripting Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://landoflinux.com/linux_bash_scripting_read.html" target="_blank" rel="noopener"
+>Read cmd&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cyberciti.biz/tips/shell-scripting-bash-how-to-create-empty-temporary-file-quickly.html" target="_blank" rel="noopener"
+>create empty temporary files&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ss64.com/bash/who.html" target="_blank" rel="noopener"
+>&amp;lsquo;who&amp;rsquo; manual&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://tiswww.case.edu/php/chet/bash/bashref.html#Special-Parameters" target="_blank" rel="noopener"
+>Bash reference manual - special parameters&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.runoob.com/linux/linux-shell-test.html" target="_blank" rel="noopener"
+>Shell test cmd&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.mktemp.org/manual.html" target="_blank" rel="noopener"
+>mktemp manual&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.gnu.org/software/findutils/manual/html_node/find_html/egrep-regular-expression-syntax.html" target="_blank" rel="noopener"
+>egrep&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/806906/how-do-i-test-if-a-variable-is-a-number-in-bash" target="_blank" rel="noopener"
+>Test a var is a number in bash&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://askubuntu.com/questions/98782/how-to-run-an-alias-in-a-shell-script" target="_blank" rel="noopener"
+>alias&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/yooozooo/article/details/42496735" target="_blank" rel="noopener"
+>zip&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://blog.51cto.com/opsmysql/665990" target="_blank" rel="noopener"
+>PATH variable&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/u012005313/article/details/48948957" target="_blank" rel="noopener"
+>more on PATH&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://c.biancheng.net/cpp/view/2739.html" target="_blank" rel="noopener"
+>special parameters in shell&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/scp.html" target="_blank" rel="noopener"
+>scp&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/38932431/using-rm-rf-with-a-directory/38932718" target="_blank" rel="noopener"
+>rm -rf&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.gnu.org/software/cflow/manual/html_node/Source-of-wc-command.html" target="_blank" rel="noopener"
+>Source of the wc command&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="vim">Vim
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/" target="_blank" rel="noopener"
+>Learning vim progressively&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://vim-adventures.com/" target="_blank" rel="noopener"
+>vim adventures&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.fprintf.net/vimCheatSheet.html" target="_blank" rel="noopener"
+>vim cmd cheat sheet&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cnblogs.com/wanyao/archive/2011/05/31/2064857.html" target="_blank" rel="noopener"
+>multiple screens in vim&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="c-basic">C++ basic
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/1164266/why-are-arrays-of-references-illegal" target="_blank" rel="noopener"
+>array of references?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/doc/tutorial/exceptions/" target="_blank" rel="noopener"
+>exceptions&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.runoob.com/cplusplus/cpp-classes-objects.html" target="_blank" rel="noopener"
+>class, objects&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/2797813/how-to-convert-a-command-line-argument-to-int" target="_blank" rel="noopener"
+>Convert cmd line args into int&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/" target="_blank" rel="noopener"
+>Initializer list&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://alfredjava.wordpress.com/2008/07/08/class-vs-object-vs-instance/" target="_blank" rel="noopener"
+>class vs object vs instances&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/forum/beginner/43072/" target="_blank" rel="noopener"
+>postfix operator overloading&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/ddupd/article/details/38053159" target="_blank" rel="noopener"
+>friend&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cnblogs.com/hazir/p/new_and_delete.html" target="_blank" rel="noopener"
+>new/delete&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cnblogs.com/wanyao/archive/2011/06/27/2091666.html" target="_blank" rel="noopener"
+>main program&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/u013796074/article/details/54099845" target="_blank" rel="noopener"
+>typeinfo&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/30250934/how-to-end-c-code" target="_blank" rel="noopener"
+>how to end c++ code&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/touzani/article/details/1637776" target="_blank" rel="noopener"
+>namespace&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://theos.in/windows-xp/howto-write-program-to-calculate-tomorrows-date/" target="_blank" rel="noopener"
+>C++ program to calculate tomorrow’s date&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://softwareengineering.stackexchange.com/questions/171650/is-there-any-difference-between-return-n-and-exitn-in-c" target="_blank" rel="noopener"
+>return/exit&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/lzuacm/article/details/52704931" target="_blank" rel="noopener"
+>to_string&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/reference/ios/ios/exceptions/" target="_blank" rel="noopener"
+>ios::exceptions&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/30943199/how-to-check-if-a-value-exists-within-a-c-map" target="_blank" rel="noopener"
+>value exists in map&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/495021/why-can-templates-only-be-implemented-in-the-header-file" target="_blank" rel="noopener"
+>Why can templates only be implemented in the header file?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://wiki.haskell.org/Reducible_expression" target="_blank" rel="noopener"
+>reducible expression&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="streams">streams
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://srfi.schemers.org/srfi-41/srfi-41.html" target="_blank" rel="noopener"
+>streams&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/27770050/using-stdostream-as-argument-to-a-print-function" target="_blank" rel="noopener"
+>Using std::ostream as argument to a print function&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/14543363/output-stream-as-class-member" target="_blank" rel="noopener"
+>Output stream as class member&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/20257836/c-ostream-implicitly-deleted-with-template" target="_blank" rel="noopener"
+>deleted function in ostream&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/5131647/why-would-we-call-cin-clear-and-cin-ignore-after-reading-input" target="_blank" rel="noopener"
+>cin clear, ignore&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/reference/fstream/ifstream/ifstream/" target="_blank" rel="noopener"
+>ifstream&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/reference/sstream/stringstream/" target="_blank" rel="noopener"
+>stringstream&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/yc_8301/article/details/3713132" target="_blank" rel="noopener"
+>vptr, vtable&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="big-5">Big 5
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.cnblogs.com/cutepig/archive/2009/01/14/1375917.html" target="_blank" rel="noopener"
+>explicit ctor&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/2417065/does-the-default-constructor-initialize-built-in-types?utm_medium=organic&amp;amp;utm_source=google_rich_qa&amp;amp;utm_campaign=google_rich_qa" target="_blank" rel="noopener"
+>Does the default constructor initialize built-in types?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.geeksforgeeks.org/constructors-c/" target="_blank" rel="noopener"
+>ctors in c++&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.cplusplus.com/forum/articles/17820/" target="_blank" rel="noopener"
+>Member Initialization List over Assignment&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="didnt-compile">didn&amp;rsquo;t compile
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/aiwoziji13/article/details/7330333" target="_blank" rel="noopener"
+>undefined reference to&amp;hellip;&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/6847105/g-compile-error/6847145" target="_blank" rel="noopener"
+>g++, another undefined reference&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/625799/resolve-build-errors-due-to-circular-dependency-amongst-classes" target="_blank" rel="noopener"
+>circular dependency&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/2545720/error-default-argument-given-for-parameter-1" target="_blank" rel="noopener"
+>default parameter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/871264/what-does-operator-must-be-a-non-static-member-mean" target="_blank" rel="noopener"
+>What does “operator = must be a non-static member” mean?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/14543363/output-stream-as-class-member" target="_blank" rel="noopener"
+>Output stream as class member&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/6483453/weird-sigsegv-segmentation-fault-using-enums" target="_blank" rel="noopener"
+>Weird SIGSEGV (Segmentation fault) using enums&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/love_gaohz/article/details/6597857" target="_blank" rel="noopener"
+>More on seg fault&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="g">g++
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#Warning-Options" target="_blank" rel="noopener"
+>Warning options&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.google.ca/search?q=gcc&amp;#43;-wall&amp;#43;%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&amp;amp;oq=gcc&amp;#43;-wall&amp;#43;%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&amp;amp;aqs=chrome..69i57.6527j0j7&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8" target="_blank" rel="noopener"
+>g++ -wall&lt;/a> (warn all)&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/attagain/article/details/18655485" target="_blank" rel="noopener"
+>g++/gcc compiler optimization&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="makefile">Makefile
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.cs.colostate.edu/~cs157/LectureMakefile.pdf" target="_blank" rel="noopener"
+>tutorial on makefile&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/12057852/multiple-makefiles-in-one-directory" target="_blank" rel="noopener"
+>Multiple makefiles in one dir&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html" target="_blank" rel="noopener"
+>phony target&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="uml">UML
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.processon.com/diagraming/5b3faebce4b0a6efd4754612" target="_blank" rel="noopener"
+>process on&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.umlet.com/umletino/umletino.html" target="_blank" rel="noopener"
+>umletino&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/xww810319/article/details/17916345" target="_blank" rel="noopener"
+>13 recommended UML tools by experts&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="projects">Projects
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://luckytoilet.wordpress.com/2011/05/27/coding-a-tetris-ai-using-a-genetic-algorithm/" target="_blank" rel="noopener"
+>Coding a Tetris AI using a Genetic Algorithm&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener"
+>git guide&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank" rel="noopener"
+>first time git set-up&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" target="_blank" rel="noopener"
+>git remote&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stackoverflow.com/questions/19216411/how-do-i-pull-files-from-remote-without-overwriting-local-files" target="_blank" rel="noopener"
+>How do I pull files from remote without overwriting local files?&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.csdn.net/DragonCheng/article/details/2781" target="_blank" rel="noopener"
+>singleton&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>CS 136</title><link>https://notes.sibeliusp.com/cs136/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs136/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs136.jpg" alt="Featured image of post CS 136" />&lt;p>&lt;a class="link" href="https://notes.sibeliusp.com/cs135" >Dave&lt;/a> again&amp;hellip; In the last lecture of cs 135, he introduced imperative paradigm with Racket. However, Racket session in cs 136 was chopped since cs 136 is for all math students, or Racket is not that useful later on if you don&amp;rsquo;t do research on programming languages (check cs 442).&lt;/p>
+&lt;p>It&amp;rsquo;s the second time he used that Chinese joke again. For the third time (cs 136 in Spring 2018), he didn&amp;rsquo;t check the grammar of the Google Translate output, so the result is weird&amp;hellip;&lt;/p>
+&lt;blockquote>
+&lt;p>English is your:&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>A) First Language
+B) Second Language
+C) Third (or higher) Language
+D) 那件丑陋衬衫上的胖子说了什么？&lt;/p>
+&lt;/blockquote>
+&lt;p>See &lt;a class="link" href="https://www.student.cs.uwaterloo.ca/~cs136/" target="_blank" rel="noopener"
+>Course Website&lt;/a>&lt;/p>
+&lt;h1 id="remarks">Remarks
+&lt;/h1>&lt;p>This course is not that hard if you have a little background, like using &lt;code>for&lt;/code> loops to draw rainbow&amp;hellip; It has similar structure as cs 135: starts off slowly and carefully, and ramps up later in the term. I would say you will learn much much much more if you take cs 146: hard midterms, hard assignments, massive curve. You will learn some baby baby compilers&amp;hellip;&lt;/p></description></item><item><title>CS 135</title><link>https://notes.sibeliusp.com/cs135/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs135/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs135.png" alt="Featured image of post CS 135" />&lt;p>This course is taught by &lt;a class="link" href="https://cs.uwaterloo.ca/~dtompkin/" target="_blank" rel="noopener"
+>Dave&lt;/a>, big fan of Coke Zero. In the first lecture, he used a clicker question with the last option to be &lt;code>那个穿丑陋衬衫的人在说什么&lt;/code> (what did that person say in ugly shirts). It was funny for the first time, but got bored for &lt;a class="link" href="https://notes.sibeliusp.com/cs136" >second time&lt;/a>. So do his other jokes.&lt;/p>
+&lt;p>Don&amp;rsquo;t have so many notes here since &lt;a class="link" href="https://www.student.cs.uwaterloo.ca/~cs135/" target="_blank" rel="noopener"
+>slides&lt;/a> are good enough to study from. (Just noticed that they change the layout to be &amp;lsquo;fancy&amp;rsquo; recently&amp;hellip;).&lt;/p>
+&lt;p>From &lt;a class="link" href="https://www.student.cs.uwaterloo.ca/~cs145/" target="_blank" rel="noopener"
+>CS 145&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>What if I start in CS 135 and decide it is too easy and want to switch into CS 145?&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>CS 135 deliberately starts off slowly and carefully, and ramps up later in the term; CS 145 starts off more rapidly, in part to give students enough information to make up their minds about it, and in part because the first midterm is scheduled after only three weeks of lecture. The transfer is thus difficult, but it is possible (if there is room); the earlier the better.&lt;/p>
+&lt;/blockquote>
+&lt;p>since the audience are from different backgrounds&amp;hellip; and cs 145 with &lt;a class="link" href="https://cormack.uwaterloo.ca/" target="_blank" rel="noopener"
+>Cormack&lt;/a> should be a self-learning process with assignments, as I &lt;a class="link" href="https://notes.sibeliusp.com/cs145/" >audited for several weeks&lt;/a> without doing any assignments. You cannot count on the lectures to be &lt;em>understandable&lt;/em>&amp;hellip;&lt;/p>
+&lt;h1 id="remarks">Remarks
+&lt;/h1>&lt;p>This course is about abstraction and ideas of functional programming with Racket. The goal is computer scientist, not computer programmer or software engineer. That&amp;rsquo;s why cs 135 differs from cs 137 for SE guys&amp;hellip;&lt;/p></description></item></channel></rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Winter 2018 on Sibelius Peng</title><link>https://notes.sibeliusp.com/term/winter-2018/</link><description>Recent content in Winter 2018 on Sibelius Peng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.sibeliusp.com/term/winter-2018/index.xml" rel="self" type="application/rss+xml"/><item><title>CS 136</title><link>https://notes.sibeliusp.com/cs136/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs136/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs136.jpg" alt="Featured image of post CS 136" />&lt;p>&lt;a class="link" href="https://notes.sibeliusp.com/cs135" >Dave&lt;/a> again&amp;hellip; In the last lecture of cs 135, he introduced imperative paradigm with Racket. However, Racket session in cs 136 was chopped since cs 136 is for all math students, or Racket is not that useful later on if you don&amp;rsquo;t do research on programming languages (check cs 442).&lt;/p>
+&lt;p>It&amp;rsquo;s the second time he used that Chinese joke again. For the third time (cs 136 in Spring 2018), he didn&amp;rsquo;t check the grammar of the Google Translate output, so the result is weird&amp;hellip;&lt;/p>
+&lt;blockquote>
+&lt;p>English is your:&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>A) First Language
+B) Second Language
+C) Third (or higher) Language
+D) 那件丑陋衬衫上的胖子说了什么？&lt;/p>
+&lt;/blockquote>
+&lt;p>See &lt;a class="link" href="https://www.student.cs.uwaterloo.ca/~cs136/" target="_blank" rel="noopener"
+>Course Website&lt;/a>&lt;/p>
+&lt;h1 id="remarks">Remarks
+&lt;/h1>&lt;p>This course is not that hard if you have a little background, like using &lt;code>for&lt;/code> loops to draw rainbow&amp;hellip; It has similar structure as cs 135: starts off slowly and carefully, and ramps up later in the term. I would say you will learn much much much more if you take cs 146: hard midterms, hard assignments, massive curve. You will learn some baby baby compilers&amp;hellip;&lt;/p></description></item><item><title>MATH 136</title><link>https://notes.sibeliusp.com/math136/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/math136/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/math136.png" alt="Featured image of post MATH 136" />&lt;p>You can take the course with &lt;a class="link" href="http://wolczuk.com/" target="_blank" rel="noopener"
+>Dan&lt;/a>: extremely passionate. He designed the course and the course notes (not free&amp;hellip; but you can buy second-handed ones).&lt;/p>
+&lt;p>I took with Mukto Akash. He is nice: even giving lectures when he didn&amp;rsquo;t feel well. However, you might suffer from copying his lecture notes: lots of examples without trimming&amp;hellip; It is good but I was spending lots of my time just copying&amp;hellip; As a result, he was behind other sessions several lectures, then he was only able to state the theorems during the last lecture without giving any examples.&lt;/p>
+&lt;p>I audited &lt;a class="link" href="http://www.math.uwaterloo.ca/~mpei/" target="_blank" rel="noopener"
+>Martin Pei&lt;/a>&amp;rsquo;s lectures for about 30 minutes. He was in a reasonable speed and reasonable amount of lecture notes. Hope I would take CO courses with him in the future.&lt;/p>
+&lt;h1 id="remarks">Remarks
+&lt;/h1>&lt;p>This course did cover a good amount of linear algebra. However, I think it might be helpful if it covers a bit more abstract things to solid the idea of proof. Some techniques of proofs require more motivation and inspiration behind it&amp;hellip; So consider taking math 146!&lt;/p></description></item><item><title>MATH 138</title><link>https://notes.sibeliusp.com/math138/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/math138/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/math138.png" alt="Featured image of post MATH 138" />&lt;p>Took with Jordan again. Though I was not in his section.&lt;/p>
+&lt;p>Integration &amp;amp; series is harder than derivatives&amp;hellip; You need to be familiar with all techniques&amp;hellip;&lt;/p>
+&lt;p>Midterm was harder than math 137&amp;hellip; So was final.&lt;/p>
+&lt;p>Be prepared and do all the assignments/practice problems/quizzes.&lt;/p></description></item><item><title>MUSIC 117</title><link>https://notes.sibeliusp.com/music117/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music117/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music.jpg" alt="Featured image of post MUSIC 117" />&lt;p>Please refer to &lt;a class="link" href="https://notes.sibeliusp.com/music116" >music 116&lt;/a> for ensemble description.&lt;/p>
+&lt;p>I will explain why the photo is &lt;a class="link" href="https://uwaterloo.ca/music/about/people/g4yun" target="_blank" rel="noopener"
+>missing&lt;/a>. This was the last term he directed the UW choir. He has been conducting for 10 years. After that, he accepted his position as a full-time professor in &lt;a class="link" href="https://www.wlu.ca/academics/faculties/faculty-of-music/faculty-profiles/gerard-yun/index.html" target="_blank" rel="noopener"
+>WLU&lt;/a>.&lt;/p>
+&lt;p>He reused the piece long time ago: The Gloria by Francis Poulenc, pretty recent one. This music is great in any aspects&amp;hellip;&lt;/p>
+&lt;p>Final thing: It is always amazing to be &lt;em>in&lt;/em> the Choir to feel the music.&lt;/p></description></item><item><title>MUSIC 255</title><link>https://notes.sibeliusp.com/music255/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music255/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music255.jpg" alt="Featured image of post MUSIC 255" />&lt;p>Took with &lt;a class="link" href="https://uwaterloo.ca/grebel/people-profiles/kenneth-hull" target="_blank" rel="noopener"
+>Kenneth Hull&lt;/a>, who just retired after this term&amp;hellip; And there were 3 guest lectures (candidate to succeed his position). He said he has been teaching here for 40 years (that is amazing). Not too surprisingly, the successor will be teaching me &lt;a class="link" href="https://notes.sibeliusp.com/music110" >music 110&lt;/a> during Winter 2020.&lt;/p>
+&lt;p>This course is just an introduction to all types of different music at that time. Pretty good introduction. Then I realized my lack of knowledge compared to the classmates.&lt;/p>
+&lt;p>First, I just wanted to take a sixth course (stat 230, and not online version). Then because of the time conflicts and inability to override the class, I chose this course to be the sixth. I didn&amp;rsquo;t plan to do music minor at that time&amp;hellip; After I planned to do more music theory courses and history courses, music minor is already there!&lt;/p>
+&lt;p>He said he wouldn&amp;rsquo;t fail you like other faculties&amp;hellip; and yes! He didn&amp;rsquo;t. I got an OK grade. The grade distribution is that simple: 3 in-class tests and a presentation. Tests should be fair if you read over the textbooks (I didn&amp;rsquo;t, then I bought a second-hand version before the final&amp;hellip;) and memorize the melodies of assigned pieces (I didn&amp;rsquo;t). It would be nice if he could post the solutions to the tests afterwards&amp;hellip;&lt;/p>
+&lt;p>I examined Brahms&amp;rsquo; &lt;em>A German Requiem&lt;/em>, especially the 4th movement, which is melodic. Here are some resources:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://pdf.sibeliusp.com/1181/outline.pdf" target="_blank" rel="noopener"
+>Outline&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://pdf.sibeliusp.com/1181/post.pdf" target="_blank" rel="noopener"
+>Presentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a class="link" href="https://uwaterloo.ca/music/sites/ca.music/files/uploads/files/mus_255_w18_-_k._hull_-_accessible.pdf" target="_blank" rel="noopener"
+>Here&lt;/a> is the outline posted on the website. The notes above is generated from the fall 2020 version, taught by &lt;a class="link" href="https://uwaterloo.ca/grebel/people-profiles/laura-j-gray" target="_blank" rel="noopener"
+>Dr. Gray&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="https://notes.sibeliusp.com/%5cpics%5ck_hull.JPG"
+loading="lazy"
+alt="K. Hull"
+>&lt;/p>
+&lt;p>Here is a picture at the second to the last lecture (last lecture was final). Almost all members in Conrad was here to memorize this moment and he was cutting the cake.&lt;/p></description></item><item><title>MUSIC 270</title><link>https://notes.sibeliusp.com/music270/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music270/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music270.jpg" alt="Featured image of post MUSIC 270" />&lt;p>The review notes is created during Fall 2019.&lt;/p>
+&lt;p>Taught by &lt;a class="link" href="https://uwaterloo.ca/music/people-profiles/terry-paynter-0" target="_blank" rel="noopener"
+>Dr. P&lt;/a>. He was great. Sometimes he spent a whole lecture (1h 50mins) on writing a cantus or 4-part chorus as examples&amp;hellip; At the beginning of each class, he played some improvised jazz in different styles.&lt;/p>
+&lt;p>The grade will be determined by lots of aspects: keyboard, singing, quizzes and so on. Get near 100% on each component then you should be fine.&lt;/p>
+&lt;p>From Fall 2018, the textbook switched from &lt;em>Laitz, The complete Musician&lt;/em> to &lt;em>Horton &amp;amp; Ritchey, Harmony Through Melody&lt;/em>. The hard copies are expensive for both.&lt;/p></description></item><item><title>PHYS 111</title><link>https://notes.sibeliusp.com/phys111/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/phys111/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/newton.jpg" alt="Featured image of post PHYS 111" />&lt;p>I don&amp;rsquo;t know why the course is structured like this&amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>Watch the online video (same as the online section) before coming to the lectures.&lt;/li>
+&lt;li>Do the workbook problems (easy and useless&amp;hellip;) during the lecture. Then prof and TA will walk around to answer questions.&lt;/li>
+&lt;li>Then give some clicker questions to facilitate the understanding.&lt;/li>
+&lt;/ul>
+&lt;p>Then what&amp;rsquo;s the difference between campus and online sessions? Well, here are some:&lt;/p>
+&lt;ul>
+&lt;li>Campus midterm allows more consideration, more time. While online midterm is just several short answer questions. If you get the answer wrong, no partial marks.&lt;/li>
+&lt;li>Online final has the topics specified, while campus hasn&amp;rsquo;t.&lt;/li>
+&lt;/ul>
+&lt;p>So take the online version&amp;hellip;&lt;/p></description></item></channel></rss>
