@@ -107,3 +107,5 @@ readingTime: false
   <label><span> </span><input type="submit" value="Submit" /></label>
 </form>
 </div>
+
+<p>If you are querying CS 146 notes or CS 246E notes, unfortunately they were taken down by the authorized UW representative. I am glad to help if you have any other inquiries.</p>
