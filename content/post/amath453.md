@@ -10,3 +10,5 @@ image: "/crs_banner/pde2.png"
 ---
 
 The notes is incomplete. But you can refer to [krmatthe](https://csclub.uwaterloo.ca/~krmatthe/AMATH/453/).
+
+These notes cover advanced topics in partial differential equations. Topics include the wave equation, conservation laws, the diffusion equation, maximum principle, uniqueness of solutions, diffusion and wave reflections on half-lines, and problems with source terms.

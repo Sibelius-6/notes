@@ -13,3 +13,5 @@ He repeated the recurrence example for four times... spent so much time on calcu
 
 
 The following courses are [CO 342](/co342)/[442](/co442), CO 330/430.
+
+These notes cover combinatorics at an advanced undergraduate level. Topics include enumeration (Fibonacci numbers, partial lists, subsets, multisets, binomial theorem), recurrence relations, generating functions, compositions, binary strings and rational languages, graphs and isomorphism, connectedness, trees, planar graphs, and matching theory.

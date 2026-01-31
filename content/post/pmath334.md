@@ -9,5 +9,4 @@ latex: /pdf/1221/pmath334.pdf
 image: "/crs_banner/pmath334.png"
 ---
 
-
-
+This course covers abstract algebra focusing on rings and fields. Topics include ring theory (definitions, zero divisors, integral domains), ring homomorphisms and ideals, polynomial rings, domains (Euclidean, PID, UFD), and an introduction to field theory.

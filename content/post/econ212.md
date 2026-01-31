@@ -8,3 +8,5 @@ subject: econ
 latex: /pdf/1219/econ212.pdf
 image: "/crs_banner/econ212.jpg"
 ---
+
+This course provides an introduction to game theory. Topics include strategic games (Prisoner's Dilemma, Battle of the Sexes, Matching Pennies, Stag Hunt) and Nash equilibrium in pure strategies. Note: These notes are incomplete.

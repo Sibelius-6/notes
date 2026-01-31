@@ -8,4 +8,6 @@ subject: music
 md: /mdf/1209/music370/
 image: "/crs_banner/music370.jpg"
 ---
-This course is the last standard theory course, which mainly covers the chromatic harmony in 19th century, like augmented 6th chords. The final project/last assignment is to write a Romance, which is fun to write, especially on your own, where you have the full control over the piece. If wanna proceed further, consider taking [MUSIC 371](/music371). 
+This course is the last standard theory course, which mainly covers the chromatic harmony in 19th century, like augmented 6th chords. The final project/last assignment is to write a Romance, which is fun to write, especially on your own, where you have the full control over the piece. If wanna proceed further, consider taking [MUSIC 371](/music371).
+
+These notes cover advanced chromatic harmony techniques. Topics include primary mixture (borrowing from parallel modes), the Neapolitan sixth chord, augmented sixth chords (Italian, French, German), modulation to chromatic keys, and 19th-century Romantic compositional practices. 

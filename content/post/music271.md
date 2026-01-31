@@ -12,3 +12,5 @@ image: "/crs_banner/music271.jpg"
 This course covers until the minuet, which is the first instrumental music you might be able to write... Like music 270, this is a standard music theory course... It would be good if you get music 270 well (except modal part...) before this course.
 
 The prof, [Dr. Sunabacka](https://uwaterloo.ca/grebel/people-profiles/karen-sunabacka), is nice. She uploaded all class board pictures on LEARN after the class is over. Although the textbook is confusing sometimes... in terms of some conventions or definitions, she is always helpful on answering questions.
+
+These notes cover intermediate music theory. Topics include tonic confirmation and voice leading, tonicization, melodic analysis, elaborating lower voices with accented dissonance and diminished sevenths, chorale writing, phrase cadences (authentic, half, Phrygian, plagal, deceptive), and quadruple paraphrase.
