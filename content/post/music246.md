@@ -7,5 +7,5 @@ term: Fall 2020
 subject: music
 md: /mdf/1209/music246/
 image: "/crs_banner/music246.jpg"
-draft: true
+featured: true
 ---

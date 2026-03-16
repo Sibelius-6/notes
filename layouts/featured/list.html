@@ -1,0 +1,123 @@
+{{ define "main" }}
+    <header>
+        <h3 class="section-title">Featured</h3>
+
+        <div class="section-card">
+            <div class="section-details">
+                <h1 class="section-term">Featured Notes</h1>
+                <h2 class="section-description">My beloved course notes</h2>
+            </div>
+        </div>
+    </header>
+
+    {{- $featured := where .Site.RegularPages "Params.featured" true -}}
+    {{- $paginator := .Paginate $featured 9 -}}
+
+    <style>
+        .featured-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px 20px;
+        }
+        .featured-grid article {
+            width: 250px;
+            height: 150px;
+            flex-shrink: 0;
+            border-radius: var(--card-border-radius, 10px);
+            overflow: hidden;
+            box-shadow: var(--shadow-l1);
+            position: relative;
+            transition: box-shadow 0.3s ease;
+        }
+        .featured-grid article:hover {
+            box-shadow: var(--shadow-l3);
+        }
+        .featured-grid article a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            color: #fff;
+            text-decoration: none;
+        }
+        .featured-grid .article-image {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .featured-grid .article-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .featured-grid .article-details {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px 15px;
+            background: linear-gradient(transparent, rgba(0,0,0,0.7));
+            z-index: 1;
+        }
+        .featured-grid .article-title {
+            font-size: 1.4rem;
+            margin: 0;
+            font-weight: bold;
+            color: #fff;
+        }
+        .featured-grid .article-subtitle {
+            font-size: 0.9rem;
+            margin: 4px 0 0;
+            color: rgba(255,255,255,0.85);
+        }
+    </style>
+
+    <section class="featured-grid">
+        {{ range $paginator.Pages }}
+            <article>
+                <a href="{{ .RelPermalink }}">
+                    {{- $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" -}}
+                    {{ if $image.exists }}
+                        <div class="article-image">
+                            {{ if $image.resource }}
+                                {{- $Permalink := $image.resource.RelPermalink -}}
+                                {{- $Width := $image.resource.Width -}}
+                                {{- $Height := $image.resource.Height -}}
+
+                                {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                                    {{- $thumbnail := $image.resource.Fill "250x150" -}}
+                                    {{- $Permalink = $thumbnail.RelPermalink -}}
+                                    {{- $Width = $thumbnail.Width -}}
+                                    {{- $Height = $thumbnail.Height -}}
+                                {{- end -}}
+
+                                <img src="{{ $Permalink }}"
+                                    width="{{ $Width }}"
+                                    height="{{ $Height }}"
+                                    alt="{{ .Title }}"
+                                    loading="lazy">
+                            {{ else }}
+                                <img src="{{ $image.permalink }}" loading="lazy" alt="{{ .Title }}" />
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                    <div class="article-details">
+                        <h2 class="article-title">{{ upper .Title }}</h2>
+                        {{ with .Description }}
+                            <p class="article-subtitle">{{ . }}</p>
+                        {{ end }}
+                    </div>
+                </a>
+            </article>
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

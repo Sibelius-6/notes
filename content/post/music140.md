@@ -7,6 +7,7 @@ term: Spring 2020
 subject: music
 md: /mdf/1205/music140
 image: "/crs_banner/music140.jpg"
+featured: true
 ---
 
 
