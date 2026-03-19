@@ -6,8 +6,8 @@ date: 2020-09-01 00:00:00+0000
 term: Fall 2020
 subject: pmath
 image: "/crs_banner/pmath433.png"
-latex: /pdf/1215/pmath433.pdf
-draft: true
+md: /mdf/1209/pmath433/
+featured: true
 ---
 
 This notes will be updated only if I have time. Check the notes below for reference:

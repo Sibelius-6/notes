@@ -7,5 +7,7 @@ term: Winter 2021
 subject: music
 md: /mdf/1211/music332/
 image: "/crs_banner/music332.jpg"
-draft: true
+featured: true
 ---
+
+Taught by [Laura Gray](https://uwaterloo.ca/music/people-profiles/laura-gray).

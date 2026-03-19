@@ -7,6 +7,7 @@ term: Winter 2018
 subject: music
 md: /mdf/1209/music255/
 image: "/crs_banner/music255.jpg"
+featured: true
 ---
 
 Took with [Kenneth Hull](https://uwaterloo.ca/grebel/people-profiles/kenneth-hull), who just retired after this term... And there were 3 guest lectures (candidate to succeed his position). He said he has been teaching here for 40 years (that is amazing). Not too surprisingly, the successor will be teaching me [music 110](/music110) during Winter 2020.
@@ -17,13 +18,7 @@ First, I just wanted to take a sixth course (stat 230, and not online version). 
 
 He said he wouldn't fail you like other faculties... and yes! He didn't. I got an OK grade. The grade distribution is that simple: 3 in-class tests and a presentation. Tests should be fair if you read over the textbooks (I didn't, then I bought a second-hand version before the final...) and memorize the melodies of assigned pieces (I didn't). It would be nice if he could post the solutions to the tests afterwards...
 
-I examined Brahms' *A German Requiem*, especially the 4th movement, which is melodic. Here are some resources:
-- [Outline](https://pdf.sibeliusp.com/1181/outline.pdf)
-- [Presentation](https://pdf.sibeliusp.com/1181/post.pdf)
+I examined Brahms' *A German Requiem*, especially the 4th movement, which is melodic. 
 
 [Here](https://uwaterloo.ca/music/sites/ca.music/files/uploads/files/mus_255_w18_-_k._hull_-_accessible.pdf) is the outline posted on the website. The notes above is generated from the fall 2020 version, taught by [Dr. Gray](https://uwaterloo.ca/grebel/people-profiles/laura-j-gray).
 
-
-![K. Hull](\pics\k_hull.JPG)
-
-Here is a picture at the second to the last lecture (last lecture was final). Almost all members in Conrad was here to memorize this moment and he was cutting the cake.
