@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fall 2018 on Sibelius Peng</title><link>https://notes.sibeliusp.com/term/fall-2018/</link><description>Recent content in Fall 2018 on Sibelius Peng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.sibeliusp.com/term/fall-2018/index.xml" rel="self" type="application/rss+xml"/><item><title>AMATH 231</title><link>https://notes.sibeliusp.com/amath231/</link><pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/amath231/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/calculus_spirit.png" alt="Featured image of post AMATH 231" />&lt;p>&lt;a class="link" href="http://www.math.uwaterloo.ca/~ervrscay" target="_blank" rel="noopener"
+>ERV&lt;/a> was teaching that. He has &lt;a class="link" href="http://links.uwaterloo.ca/amath231" target="_blank" rel="noopener"
+>a complete set of notes&lt;/a>. The course is not that hard if you do all assignments. Assignments and exams are similar.&lt;/p>
+&lt;p>These notes cover vector calculus and Fourier analysis. Topics include line integrals, path independence, Green&amp;rsquo;s theorem, divergence and curl, surface integrals, flux, Gauss divergence theorem, Stokes&amp;rsquo; theorem, and conservation laws. The Fourier analysis section covers Fourier series, convergence (pointwise, uniform, mean), Parseval&amp;rsquo;s formula, and the Fourier transform.&lt;/p></description></item><item><title>AMATH 251</title><link>https://notes.sibeliusp.com/amath251/</link><pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/amath251/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/amath251.png" alt="Featured image of post AMATH 251" />&lt;p>Harsh TA, made the average around 40 for the first 2 assignments deliberately. This is quite different from normal advanced courses.&lt;/p>
+&lt;p>This course is required for AMATH major or minor or joint(?), but you can discuss with advisor if your coop sequence
+cannot make this course.&lt;/p>
+&lt;p>&lt;a class="link" href="https://pdf.sibeliusp.com/1189/251.pdf" target="_blank" rel="noopener"
+>Here&lt;/a> is a summary.&lt;/p></description></item><item><title>CO 255</title><link>https://notes.sibeliusp.com/co255old/</link><pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/co255old/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/helly.png" alt="Featured image of post CO 255" />&lt;p>&lt;a class="link" href="http://www.math.uwaterloo.ca/~jfgeelen/" target="_blank" rel="noopener"
+>Jim Geelen&lt;/a>. Legend. Spent 2~3 lectures on introduction of the course topics and how hard is optimization&amp;hellip;&lt;/p>
+&lt;p>From a review of rate my prof:&lt;/p>
+&lt;blockquote>
+&lt;p>Covers so many topics in an intro to CO course as he is such a smart professor. Difficult assignment, better start assignment early and go to his office hour. When I went to higher level CO courses, I realized how great he is. His class is hard, but makes your life easier in future CO courses.&lt;/p>
+&lt;/blockquote>
+&lt;p>For example, co 450 students serve the best if they took co 255.&lt;/p>
+&lt;p>This notes is incomplete.
+Check the &lt;a class="link" href="https://notes.sibeliusp.com/co255" >winter 2020 version&lt;/a> for a complete version.&lt;/p></description></item><item><title>CS 246E</title><link>https://notes.sibeliusp.com/cs246e/</link><pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs246e/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/vim.png" alt="Featured image of post CS 246E" />&lt;p>This course is Brad Lushman&amp;rsquo;s enriched version of CS 246, following his signature teaching style: problem-driven, densely packed with content, and incredibly rewarding. Rather than lecturing concepts in isolation, the course poses 34 problems and solves them to introduce C++ features organically. The final project is building a text editor with Vim-like functionality.&lt;/p>
+&lt;h2 id="course-overview">Course Overview
+&lt;/h2>&lt;p>The central theme is &lt;strong>mastering C++ through problem-solving&lt;/strong> — understanding not just &lt;em>what&lt;/em> C++ features exist, but &lt;em>why&lt;/em> they exist and &lt;em>when&lt;/em> to use them. The course covers approximately 50% more content than regular CS 246, diving deep into move semantics, template metaprogramming, and design patterns.&lt;/p>
+&lt;h2 id="part-i-basic-c-problems-1-22">Part I: Basic C++ (Problems 1-22)
+&lt;/h2>&lt;h3 id="getting-started-problems-1-4">Getting Started (Problems 1-4)
+&lt;/h3>&lt;p>The course begins with fundamental I/O and program structure:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Problem 1&lt;/strong>: Hello World — &lt;code>iostream&lt;/code>, &lt;code>std::cout&lt;/code>, namespaces&lt;/li>
+&lt;li>&lt;strong>Problem 2&lt;/strong>: Input/Output — &lt;code>cin&lt;/code>, &lt;code>getline&lt;/code>, I/O manipulators&lt;/li>
+&lt;li>&lt;strong>Problem 3&lt;/strong>: Linear collections — &lt;code>vector&lt;/code>, range-based for loops&lt;/li>
+&lt;li>&lt;strong>Problem 4&lt;/strong>: Linear collections with iterators — iterator pattern, &lt;code>begin()&lt;/code>/&lt;code>end()&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="separate-compilation-problems-5-7">Separate Compilation (Problems 5-7)
+&lt;/h3>&lt;p>Building modular programs:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Problem 5&lt;/strong>: Separate compilation — header files, include guards, &lt;code>extern&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Problem 6&lt;/strong>: Dependencies — Makefiles, automatic dependency tracking&lt;/li>
+&lt;li>&lt;strong>Problem 7&lt;/strong>: Linear collections and memory — stack vs heap, &lt;code>new&lt;/code>/&lt;code>delete&lt;/code>, memory leaks&lt;/li>
+&lt;/ul>
+&lt;h3 id="classes-and-resources-problems-8-14">Classes and Resources (Problems 8-14)
+&lt;/h3>&lt;p>The heart of C++ OOP:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Problem 8&lt;/strong>: Efficient iteration — custom iterators, operator overloading&lt;/li>
+&lt;li>&lt;strong>Problem 9&lt;/strong>: Encapsulation — classes, access modifiers, &lt;code>friend&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Problem 10&lt;/strong>: Abstraction and constructors — copy constructors, destructor basics&lt;/li>
+&lt;li>&lt;strong>Problem 11&lt;/strong>: Copying — deep vs shallow copy, copy assignment operator&lt;/li>
+&lt;li>&lt;strong>Problem 12&lt;/strong>: RAII — Resource Acquisition Is Initialization, exception safety&lt;/li>
+&lt;li>&lt;strong>Problem 13&lt;/strong>: Move semantics — rvalue references, &lt;code>std::move&lt;/code>, move constructor/assignment&lt;/li>
+&lt;li>&lt;strong>Problem 14&lt;/strong>: The Rule of 5 — when to implement copy/move operations, &lt;code>= default&lt;/code>, &lt;code>= delete&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="advanced-class-features-problems-15-22">Advanced Class Features (Problems 15-22)
+&lt;/h3>&lt;p>Templates, inheritance, and polymorphism:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Problem 15&lt;/strong>: Strong guarantees — exception safety levels (basic, strong, nothrow)&lt;/li>
+&lt;li>&lt;strong>Problem 16&lt;/strong>: Abstraction with classes — abstract classes, pure virtual functions&lt;/li>
+&lt;li>&lt;strong>Problem 17&lt;/strong>: Inheritance — IS-A relationship, protected members&lt;/li>
+&lt;li>&lt;strong>Problem 18&lt;/strong>: Polymorphism — virtual methods, vtables, dynamic dispatch&lt;/li>
+&lt;li>&lt;strong>Problem 19&lt;/strong>: Template functions — type deduction, template specialization&lt;/li>
+&lt;li>&lt;strong>Problem 20&lt;/strong>: Smart pointers — &lt;code>unique_ptr&lt;/code>, &lt;code>shared_ptr&lt;/code>, &lt;code>weak_ptr&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Problem 21&lt;/strong>: The visitor pattern — double dispatch, &lt;code>dynamic_cast&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Problem 22&lt;/strong>: Composite and decorator patterns — structural design patterns&lt;/li>
+&lt;/ul>
+&lt;h2 id="part-ii-object-oriented-design">Part II: Object-Oriented Design
+&lt;/h2>&lt;p>This section covers software design principles and patterns:&lt;/p>
+&lt;h3 id="solid-principles">SOLID Principles
+&lt;/h3>&lt;ol>
+&lt;li>&lt;strong>Single Responsibility Principle (SRP)&lt;/strong>: A class should have only one reason to change&lt;/li>
+&lt;li>&lt;strong>Open/Closed Principle (OCP)&lt;/strong>: Open for extension, closed for modification&lt;/li>
+&lt;li>&lt;strong>Liskov Substitution Principle (LSP)&lt;/strong>: Subtypes must be substitutable for their base types&lt;/li>
+&lt;li>&lt;strong>Interface Segregation Principle (ISP)&lt;/strong>: Many specific interfaces are better than one general interface&lt;/li>
+&lt;li>&lt;strong>Dependency Inversion Principle (DIP)&lt;/strong>: Depend on abstractions, not concretions&lt;/li>
+&lt;/ol>
+&lt;h3 id="design-patterns">Design Patterns
+&lt;/h3>&lt;p>The course covers several GoF patterns in depth:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Iterator&lt;/strong>: Traverse collections without exposing internal structure&lt;/li>
+&lt;li>&lt;strong>Factory Method&lt;/strong>: Create objects without specifying exact class&lt;/li>
+&lt;li>&lt;strong>Template Method&lt;/strong>: Define algorithm skeleton, defer steps to subclasses&lt;/li>
+&lt;li>&lt;strong>Decorator&lt;/strong>: Add behavior dynamically without inheritance explosion&lt;/li>
+&lt;li>&lt;strong>Visitor&lt;/strong>: Add operations to class hierarchies without modifying them&lt;/li>
+&lt;li>&lt;strong>Observer&lt;/strong>: Publish-subscribe for loose coupling&lt;/li>
+&lt;li>&lt;strong>Strategy&lt;/strong>: Encapsulate interchangeable algorithms&lt;/li>
+&lt;/ul>
+&lt;h3 id="uml-diagrams">UML Diagrams
+&lt;/h3>&lt;ul>
+&lt;li>Class diagrams with associations, aggregation, composition&lt;/li>
+&lt;li>Sequence diagrams for object interactions&lt;/li>
+&lt;li>Dependency arrows and multiplicities&lt;/li>
+&lt;/ul>
+&lt;h2 id="part-iii-abstraction-in-c-problems-23-34">Part III: Abstraction in C++ (Problems 23-34)
+&lt;/h2>&lt;p>Advanced C++ techniques for building robust abstractions:&lt;/p>
+&lt;h3 id="exception-safety-and-resource-management-problems-23-24">Exception Safety and Resource Management (Problems 23-24)
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Problem 23&lt;/strong>: Exception safety in STL — copy-and-swap idiom, strong guarantee&lt;/li>
+&lt;li>&lt;strong>Problem 24&lt;/strong>: Abstraction over iterators — iterator categories, &lt;code>iterator_traits&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="low-level-c-features-problems-25-28">Low-Level C++ Features (Problems 25-28)
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Problem 25&lt;/strong>: POD types — Plain Old Data, standard layout, trivially copyable&lt;/li>
+&lt;li>&lt;strong>Problem 26&lt;/strong>: Implementing &lt;code>std::move&lt;/code> and &lt;code>std::forward&lt;/code> — reference collapsing rules&lt;/li>
+&lt;li>&lt;strong>Problem 27&lt;/strong>: Compile-time type traits — &lt;code>enable_if&lt;/code>, SFINAE, &lt;code>type_traits&lt;/code> header&lt;/li>
+&lt;li>&lt;strong>Problem 28&lt;/strong>: CRTP — Curiously Recurring Template Pattern for static polymorphism&lt;/li>
+&lt;/ul>
+&lt;h3 id="metaprogramming-and-advanced-patterns-problems-29-34">Metaprogramming and Advanced Patterns (Problems 29-34)
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Problem 29&lt;/strong>: Resolving method calls at compile time — tag dispatch, constexpr if&lt;/li>
+&lt;li>&lt;strong>Problem 30&lt;/strong>: Polymorphic cloning — virtual copy constructors via &lt;code>clone()&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Problem 31&lt;/strong>: Logging with mixins — CRTP for cross-cutting concerns&lt;/li>
+&lt;li>&lt;strong>Problem 32&lt;/strong>: Custom allocators — &lt;code>std::allocator&lt;/code>, allocator-aware containers&lt;/li>
+&lt;li>&lt;strong>Problem 33&lt;/strong>: Fixed-size allocators — memory pools, placement new&lt;/li>
+&lt;li>&lt;strong>Problem 34&lt;/strong>: Empty Base Optimization (EBO) — zero-overhead abstractions&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-c-concepts">Key C++ Concepts
+&lt;/h2>&lt;h3 id="memory-management">Memory Management
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// RAII pattern
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">class&lt;/span> &lt;span class="nc">ResourceHolder&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Resource&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">res&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">public&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">ResourceHolder&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">:&lt;/span> &lt;span class="n">res&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">new&lt;/span> &lt;span class="n">Resource&lt;/span>&lt;span class="p">())&lt;/span> &lt;span class="p">{}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">~&lt;/span>&lt;span class="n">ResourceHolder&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">delete&lt;/span> &lt;span class="n">res&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Rule of 5: copy ctor, copy assign, move ctor, move assign, dtor
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Modern approach: smart pointers
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">auto&lt;/span> &lt;span class="n">ptr&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">make_unique&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">Resource&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">auto&lt;/span> &lt;span class="n">shared&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">make_shared&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">Resource&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="move-semantics">Move Semantics
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Rvalue reference and move
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="n">other&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">noexcept&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">:&lt;/span> &lt;span class="n">data&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">len&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">nullptr&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">len&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Perfect forwarding
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">template&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="k">typename&lt;/span> &lt;span class="n">T&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="n">wrapper&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">T&lt;/span>&lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="n">arg&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">func&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">std&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">forward&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">T&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">arg&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="template-metaprogramming">Template Metaprogramming
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// SFINAE with enable_if
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">template&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="k">typename&lt;/span> &lt;span class="n">T&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">typename&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">enable_if&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">std&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">is_integral&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">T&lt;/span>&lt;span class="o">&amp;gt;::&lt;/span>&lt;span class="n">value&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">T&lt;/span>&lt;span class="o">&amp;gt;::&lt;/span>&lt;span class="n">type&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">process&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">T&lt;/span> &lt;span class="n">val&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Compile-time conditionals (C++17)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">if&lt;/span> &lt;span class="nf">constexpr&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">std&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">is_pointer_v&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">T&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// compile-time branch
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="key-takeaways">Key Takeaways
+&lt;/h2>&lt;p>After this course, you understand:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Why C++ has move semantics&lt;/strong> — avoiding unnecessary copies, enabling efficient resource transfer&lt;/li>
+&lt;li>&lt;strong>How virtual functions work&lt;/strong> — vtables, dynamic dispatch overhead, when to use &lt;code>final&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Exception safety guarantees&lt;/strong> — designing robust APIs that don&amp;rsquo;t leak resources&lt;/li>
+&lt;li>&lt;strong>When to use templates vs inheritance&lt;/strong> — compile-time vs runtime polymorphism trade-offs&lt;/li>
+&lt;li>&lt;strong>SOLID principles in practice&lt;/strong> — building maintainable, extensible software&lt;/li>
+&lt;li>&lt;strong>Design patterns as vocabulary&lt;/strong> — communicating solutions to common problems&lt;/li>
+&lt;li>&lt;strong>Modern C++ idioms&lt;/strong> — RAII, smart pointers, move semantics, perfect forwarding&lt;/li>
+&lt;/ol>
+&lt;h2 id="recommendations">Recommendations
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Prerequisites&lt;/strong>: CS 146 (or strong C background) is highly recommended&lt;/li>
+&lt;li>Start assignments early — they&amp;rsquo;re substantial and require deep understanding&lt;/li>
+&lt;li>Draw memory diagrams for move semantics and inheritance hierarchies&lt;/li>
+&lt;li>Implement the patterns yourself before using library versions&lt;/li>
+&lt;li>The Vim project is challenging but teaches real-world software design&lt;/li>
+&lt;li>Consider taking &lt;a class="link" href="https://notes.sibeliusp.com/cs146" >CS 146&lt;/a> first if you haven&amp;rsquo;t — similar teaching style, and it covers lower-level concepts that provide context for C++&lt;/li>
+&lt;/ul></description></item><item><title>MATH 249</title><link>https://notes.sibeliusp.com/math249/</link><pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/math249/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/co.jpg" alt="Featured image of post MATH 249" />&lt;p>He repeated the recurrence example for four times&amp;hellip; spent so much time on calculation, didn&amp;rsquo;t enrich a lot. He did introduced some new topics in enumeration like tilings, but nothing in graph theory, or even less than math 239&amp;hellip; This is more structured with &lt;a class="link" href="http://www.math.uwaterloo.ca/~kpurbhoo/" target="_blank" rel="noopener"
+>Kevin&lt;/a>, but much more difficult with assignments and tests, but you have the curve at the end.&lt;/p>
+&lt;p>The following courses are &lt;a class="link" href="https://notes.sibeliusp.com/co342" >CO 342&lt;/a>/&lt;a class="link" href="https://notes.sibeliusp.com/co442" >442&lt;/a>, CO 330/430.&lt;/p>
+&lt;p>These notes cover combinatorics at an advanced undergraduate level. Topics include enumeration (Fibonacci numbers, partial lists, subsets, multisets, binomial theorem), recurrence relations, generating functions, compositions, binary strings and rational languages, graphs and isomorphism, connectedness, trees, planar graphs, and matching theory.&lt;/p></description></item></channel></rss>
