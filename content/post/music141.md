@@ -6,7 +6,7 @@ date: 2026-01-05 00:00:00+0000
 term: Winter 2026
 subject: music
 md: /mdf/1261/music141
-image: "/crs_banner/music140.jpg"
+image: "/crs_banner/music141.jpg"
 featured: true
 ---
 
