@@ -5,7 +5,7 @@ description: "Global Popular Music"
 date: 2026-03-31 00:00:00+0000
 term: Winter 2026
 subject: music
-md: /mdf/1262/music142
+md: /mdf/1261/music142
 image: "/crs_banner/music142.jpg"
 featured: true
 ---
