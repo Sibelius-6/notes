@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Winter 2021 on Sibelius Peng</title><link>https://notes.sibeliusp.com/term/winter-2021/</link><description>Recent content in Winter 2021 on Sibelius Peng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.sibeliusp.com/term/winter-2021/index.xml" rel="self" type="application/rss+xml"/><item><title>CO 487</title><link>https://notes.sibeliusp.com/co487/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/co487/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/co487.jpg" alt="Featured image of post CO 487" />&lt;p>This course focuses more on breadth and no depth.&lt;/p>
+&lt;p>The assignments are not hard if you look for help. The questions of assignments are more like, if you know the point of it, then can solve it immediately. Most of them are variants of lecture materials.&lt;/p>
+&lt;p>By first look, the lectures seem to be long, but this course is more like story-telling with less mathy thinking involved. So basically you can just follow the material without thinking too much on it.&lt;/p>
+&lt;p>After this course, you will be appreciated how clever some ideas are, like inventions of some schemes or attacks. However, there are still lots of challenges remaining.&lt;/p>
+&lt;p>There are some fancy drawings I created in the notes. For example, you can scan the QR code in the notes.&lt;/p></description></item><item><title>CS 146</title><link>https://notes.sibeliusp.com/cs146/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs146/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs146.jpeg" alt="Featured image of post CS 146" />&lt;p>This course is the advanced follow-up to CS 145, taught by Brad Lushman. Similar to his &lt;a class="link" href="https://notes.sibeliusp.com/cs246e" >CS 246E&lt;/a> style: dense material, challenging assignments, but incredibly rewarding. The course takes you on a journey from high-level functional programming all the way down to machine code, teaching you how computers actually execute programs.&lt;/p>
+&lt;h2 id="course-overview">Course Overview
+&lt;/h2>&lt;p>The central theme is &lt;strong>imperative programming and side effects&lt;/strong> — understanding how programs &amp;ldquo;do things&amp;rdquo; that change the state of the world. The course bridges functional programming (from CS 145) with systems-level concepts, covering everything from Racket mutation to assembly language.&lt;/p>
+&lt;h2 id="part-i-impurity-in-racket">Part I: Impurity in Racket
+&lt;/h2>&lt;p>The course begins by introducing &lt;strong>side effects&lt;/strong> to the pure functional world of Racket:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mutation fundamentals&lt;/strong>: &lt;code>set!&lt;/code>, &lt;code>set-box!&lt;/code>, mutable structs&lt;/li>
+&lt;li>&lt;strong>I/O modeling&lt;/strong>: Output as growing character sequences, input as consumption from a stream&lt;/li>
+&lt;li>&lt;strong>Boxes and pointers&lt;/strong>: Understanding indirect references and aliasing&lt;/li>
+&lt;li>&lt;strong>Vectors&lt;/strong>: Fixed-size, O(1) access data structures&lt;/li>
+&lt;/ul>
+&lt;p>The parallel track introduces &lt;strong>C programming&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variables, expressions, statements, functions&lt;/li>
+&lt;li>Pointers (&lt;code>*&lt;/code>, &lt;code>&amp;amp;&lt;/code>), pointer arithmetic&lt;/li>
+&lt;li>Arrays vs pointers (the confusing rule: array name = pointer to first element)&lt;/li>
+&lt;li>Memory layout: code, static, heap, stack&lt;/li>
+&lt;li>&lt;code>malloc&lt;/code>/&lt;code>free&lt;/code> and manual memory management&lt;/li>
+&lt;li>Linked lists, hash tables implementation&lt;/li>
+&lt;li>Common pitfalls: dangling pointers, memory leaks, buffer overflows&lt;/li>
+&lt;/ul>
+&lt;p>Key insight: Racket structs automatically box their fields (pointers), while C requires explicit pointer management.&lt;/p>
+&lt;h2 id="part-ii-simpl">Part II: SIMPL
+&lt;/h2>&lt;p>Build your own imperative language! SIMPL (Simple Imperative Language) has:&lt;/p>
+&lt;ul>
+&lt;li>Variable declarations, assignment, sequencing&lt;/li>
+&lt;li>Conditionals (&lt;code>iif&lt;/code>), loops (&lt;code>while&lt;/code>), print statements&lt;/li>
+&lt;li>Arithmetic and boolean expressions&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Interpreter in Haskell&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>AST data types for expressions and statements&lt;/li>
+&lt;li>State as a map from variables to values&lt;/li>
+&lt;li>Adding output via the &lt;strong>Mio monad&lt;/strong> pattern&lt;/li>
+&lt;li>Introduction to &lt;code>&amp;gt;&amp;gt;=&lt;/code> (bind) and the IO monad&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hoare Logic&lt;/strong> for program correctness:&lt;/p>
+&lt;ul>
+&lt;li>Triples &lt;code>{P} statement {Q}&lt;/code> — preconditions and postconditions&lt;/li>
+&lt;li>Rules for assignment, sequencing, conditionals, loops&lt;/li>
+&lt;li>Loop invariants for proving &lt;code>while&lt;/code> correctness&lt;/li>
+&lt;/ul>
+&lt;h2 id="part-iii-primpl">Part III: PRIMPL
+&lt;/h2>&lt;p>&amp;ldquo;SIMPL is all lies&amp;rdquo; — now we see what programs really look like at a lower level.&lt;/p>
+&lt;p>&lt;strong>PRIMPL&lt;/strong> (Primitive Imperative Language):&lt;/p>
+&lt;ul>
+&lt;li>Programs as vectors of instructions, not trees&lt;/li>
+&lt;li>&lt;strong>Program Counter (PC)&lt;/strong> tracks execution position&lt;/li>
+&lt;li>No named variables — only memory locations&lt;/li>
+&lt;li>Single operations: &lt;code>add&lt;/code>, &lt;code>sub&lt;/code>, &lt;code>mul&lt;/code>, &lt;code>move&lt;/code>, &lt;code>jump&lt;/code>, &lt;code>branch&lt;/code>&lt;/li>
+&lt;li>Operands: immediate values &lt;code>5&lt;/code> vs memory references &lt;code>(5)&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>A-PRIMPL&lt;/strong> (Assembly PRIMPL):&lt;/p>
+&lt;ul>
+&lt;li>Labels, constants, data declarations&lt;/li>
+&lt;li>Pseudo-instructions for readability&lt;/li>
+&lt;li>Two-pass assembler: build symbol table, then generate code&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Compiling SIMPL to A-PRIMPL&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Stack-based temporary storage with stack pointer (SP)&lt;/li>
+&lt;li>Translating &lt;code>iif&lt;/code> and &lt;code>while&lt;/code> into jumps and branches&lt;/li>
+&lt;li>Adding arrays with bounds checking&lt;/li>
+&lt;li>Function calls: &lt;code>jsr&lt;/code> instruction, stack frames, frame pointer (FP)&lt;/li>
+&lt;li>Tail call optimization&lt;/li>
+&lt;/ul>
+&lt;h2 id="part-iv-mmix">Part IV: MMIX
+&lt;/h2>&lt;p>Donald Knuth&amp;rsquo;s educational 64-bit RISC architecture:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Registers&lt;/strong>: 256 general-purpose ($0-$255), 32 special-purpose&lt;/li>
+&lt;li>&lt;strong>Memory&lt;/strong>: 64-bit words, big-endian, byte-addressable&lt;/li>
+&lt;li>&lt;strong>2&amp;rsquo;s complement&lt;/strong> for signed integers&lt;/li>
+&lt;li>&lt;strong>Instruction encoding&lt;/strong>: 32-bit instructions (opcode + operands)&lt;/li>
+&lt;/ul>
+&lt;p>Key instructions:&lt;/p>
+&lt;ul>
+&lt;li>Arithmetic: &lt;code>ADD&lt;/code>, &lt;code>SUB&lt;/code>, &lt;code>MUL&lt;/code>, &lt;code>DIV&lt;/code> (remainder in &lt;code>rR&lt;/code>)&lt;/li>
+&lt;li>Comparison: &lt;code>CMP&lt;/code> (returns -1, 0, or 1)&lt;/li>
+&lt;li>Branches: &lt;code>BN&lt;/code>, &lt;code>BZ&lt;/code>, &lt;code>BP&lt;/code>, &lt;code>BNN&lt;/code>, &lt;code>BNZ&lt;/code>, &lt;code>BNP&lt;/code>&lt;/li>
+&lt;li>Memory: &lt;code>LDO&lt;/code>/&lt;code>STO&lt;/code> (load/store octabyte)&lt;/li>
+&lt;li>Control: &lt;code>JMP&lt;/code>, &lt;code>GO&lt;/code> (for subroutine calls)&lt;/li>
+&lt;/ul>
+&lt;p>Practical concerns:&lt;/p>
+&lt;ul>
+&lt;li>Register allocation and spilling to RAM&lt;/li>
+&lt;li>Memory access is slow — registers are fast&lt;/li>
+&lt;li>Overflow handling strategies&lt;/li>
+&lt;/ul>
+&lt;h2 id="part-v-implementing-functional-languages">Part V: Implementing Functional Languages
+&lt;/h2>&lt;p>How does Racket actually work on a real machine?&lt;/p>
+&lt;p>&lt;strong>Data representation&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Runtime environment maps identifiers to heap locations&lt;/li>
+&lt;li>All data tagged with type information&lt;/li>
+&lt;li>Cons cells: 3 words (type, first pointer, rest pointer)&lt;/li>
+&lt;li>Boxes: 2 words (type, pointer to value)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Shared structure&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Immutable data allows safe sharing (e.g., &lt;code>append&lt;/code> shares the second list)&lt;/li>
+&lt;li>BST insertion shares unchanged branches&lt;/li>
+&lt;li>Only observable through mutation&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Closures&lt;/strong>: Functions capture their environment — can&amp;rsquo;t use a simple stack model&lt;/p>
+&lt;p>&lt;strong>Garbage collection&lt;/strong>: Enables safe sharing without manual deallocation&lt;/p>
+&lt;h2 id="part-vi-control">Part VI: Control
+&lt;/h2>&lt;p>Making interpreters efficient and tail-recursive:&lt;/p>
+&lt;p>&lt;strong>Zippers&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Data structure for efficient traversal: (current focus, context)&lt;/li>
+&lt;li>Move forward/backward in O(1)&lt;/li>
+&lt;li>For trees: context records descent path and siblings&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Continuations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Zipper for AST = continuation (&amp;ldquo;what to do next&amp;rdquo;)&lt;/li>
+&lt;li>Refactoring interpreter to be tail-recursive&lt;/li>
+&lt;li>&lt;code>interp&lt;/code> descends, &lt;code>applyCont&lt;/code> ascends&lt;/li>
+&lt;li>Trampolining: bounce function pointers back to a loop&lt;/li>
+&lt;/ul>
+&lt;h2 id="part-vii-continuations">Part VII: Continuations
+&lt;/h2>&lt;p>First-class continuations as a programming construct:&lt;/p>
+&lt;p>&lt;strong>Continuation Passing Style (CPS)&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Pass &amp;ldquo;the rest of the computation&amp;rdquo; as an extra parameter&lt;/li>
+&lt;li>Every function call becomes tail-recursive&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>&lt;code>call/cc&lt;/code>&lt;/strong> (call-with-current-continuation):&lt;/p>
+&lt;ul>
+&lt;li>Capture current continuation as a first-class value&lt;/li>
+&lt;li>&lt;code>(let/cc k exp)&lt;/code> — Racket&amp;rsquo;s friendlier form&lt;/li>
+&lt;li>Invoking &lt;code>k&lt;/code> discards remaining computation (non-local exit)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>C equivalent&lt;/strong>: &lt;code>setjmp&lt;/code>/&lt;code>longjmp&lt;/code> for saving/restoring execution context&lt;/p>
+&lt;h2 id="additional-c-topics">Additional C Topics
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Strings&lt;/strong>: Null-terminated char arrays, &lt;code>strlen&lt;/code>, &lt;code>strcpy&lt;/code>, &lt;code>strcmp&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Buffer safety&lt;/strong>: &lt;code>strncpy&lt;/code>, avoiding &lt;code>scanf(&amp;quot;%s&amp;quot;, ...)&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Heterogeneous data&lt;/strong>: &lt;code>void *&lt;/code>, unions, enums for type tags&lt;/li>
+&lt;li>&lt;strong>2D arrays&lt;/strong>: Row-major order, spatial locality matters&lt;/li>
+&lt;li>&lt;strong>Variadic functions&lt;/strong>: &lt;code>va_list&lt;/code>, &lt;code>va_arg&lt;/code> for variable arguments&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-takeaways">Key Takeaways
+&lt;/h2>&lt;p>After this course, you understand:&lt;/p>
+&lt;ol>
+&lt;li>Why C has pointers and manual memory management&lt;/li>
+&lt;li>How garbage collection works&lt;/li>
+&lt;li>What compilers actually do (high-level → assembly → machine code)&lt;/li>
+&lt;li>The fundamental difference between functional and imperative paradigms&lt;/li>
+&lt;li>How to reason about program correctness with Hoare logic&lt;/li>
+&lt;li>The elegance of continuations for control flow&lt;/li>
+&lt;/ol>
+&lt;h2 id="recommendations">Recommendations
+&lt;/h2>&lt;ul>
+&lt;li>Take &lt;a class="link" href="https://notes.sibeliusp.com/cs241e" >CS 241E&lt;/a> instead of CS 241 — this course covers similar compiler content&lt;/li>
+&lt;li>The assignments are essential for understanding — don&amp;rsquo;t skip them&lt;/li>
+&lt;li>Draw memory diagrams to understand pointers and aliasing&lt;/li>
+&lt;li>Hand-write the interpreters to truly grasp the concepts&lt;/li>
+&lt;/ul></description></item><item><title>CS 360</title><link>https://notes.sibeliusp.com/cs360/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs360/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs360.png" alt="Featured image of post CS 360" />&lt;p>Textbook: J. Watrous, &lt;a class="link" href="https://student.cs.uwaterloo.ca/~cs360/cs360notes.pdf" target="_blank" rel="noopener"
+>Introduction to the Theory of Computing: Lecture notes for CS 360&lt;/a>, version of June 27, 2017. (A Creative Commons license applies; see the cover page.)&lt;/p>
+&lt;p>This term&amp;rsquo;s offering was basically following Watrous&amp;rsquo; text, accompanied by some complementary notes and videos. The assignments are heavily weighted, 63%. To explore more on theoretical computer science, consider taking &lt;a class="link" href="https://notes.sibeliusp.com/cs365" >cs 365&lt;/a> and cs 462.&lt;/p>
+&lt;p>These notes cover the foundations of computability theory. Topics include set theory and countability, alphabets and languages, deterministic and nondeterministic finite automata (DFAs/NFAs), regular expressions and languages, context-free grammars and pushdown automata, Turing machines, decidability, and computational complexity.&lt;/p></description></item><item><title>CS 365</title><link>https://notes.sibeliusp.com/cs365/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs365/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs365.jpg" alt="Featured image of post CS 365" />&lt;p>&lt;a class="link" href="https://cs.uwaterloo.ca/~eblais/cs365/" target="_blank" rel="noopener"
+>Prof&amp;rsquo;s notes&lt;/a> is quite incomplete,
+by which I mean he deliberately left out the proof and let the students fill in
+as a part of the weekly report (40% of this course).&lt;/p>
+&lt;p>Some of the proofs of the results in this course can be found in &lt;a class="link" href="https://notes.sibeliusp.com/cs360" >cs 360&lt;/a>. This course covers space complexity which cs 360 doesn&amp;rsquo;t.&lt;/p></description></item><item><title>CS 479</title><link>https://notes.sibeliusp.com/cs479/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/cs479/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/cs479.jpg" alt="Featured image of post CS 479" />&lt;p>This course is advertised as theoretical neuroscience, and uses &lt;a class="link" href="https://mitpress.mit.edu/books/theoretical-neuroscience" target="_blank" rel="noopener"
+>&lt;em>Theoretical Neuroscience&lt;/em>&lt;/a> as textbook. However, only chapter 1 of this textbook is covered as theoretical material, the rest like information theory was not covered&amp;hellip; This course is more like a standard survey of networks in machine learning, all types of networks.&lt;/p>
+&lt;p>Note that in CNN part (section 7,3), I didn&amp;rsquo;t complete the rest of notes because he was reading off the cs231n slides, stanford course. To obtain a full understanding, you can read their &lt;a class="link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener"
+>lecture notes&lt;/a>.&lt;/p>
+&lt;p>These notes cover neural network fundamentals and architectures. Topics include neuron models (Hodgkin-Huxley, leaky integrate-and-fire), learning formulation and loss functions, error backpropagation, automatic differentiation, generalization and overfitting (regularization, dropout), optimization (SGD, momentum, vanishing gradients), and architectures including autoencoders, CNNs, and RNNs.&lt;/p></description></item><item><title>GEOG 181</title><link>https://notes.sibeliusp.com/geog181/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/geog181/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/geog181.png" alt="Featured image of post GEOG 181" />&lt;p>The online offering (or pandemic offering) of this course consists of 7 assignments (75%) + 1 final exam (25%). The course material is not hard to follow, which describes some basics of map making, and gis system. The assignments are not hard to follow, and they are provide several instruction videos to do.&lt;/p>
+&lt;p>These notes cover the fundamentals of cartography and map design. Topics include the history of cartography, geographic coordinates and datums, map projections (equal area, conformal, UTM), map accuracy and distortion, principles of cartographic abstraction, mapping quantitative data, choropleth maps, and data classification methods.&lt;/p></description></item><item><title>MUSIC 256</title><link>https://notes.sibeliusp.com/music256/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music256/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music256.jpg" alt="Featured image of post MUSIC 256" />&lt;p>Taught by &lt;a class="link" href="https://uwaterloo.ca/music/people-profiles/laura-gray" target="_blank" rel="noopener"
+>Laura Gray&lt;/a>. This course surveys Western art music from the turn of the 20th century to the present. Topics include late Romanticism and the crisis of tonality, Debussy&amp;rsquo;s impressionism, Stravinsky&amp;rsquo;s rhythmic innovations, Schoenberg&amp;rsquo;s path from expressionism to twelve-tone serialism, neoclassicism, nationalism and folk music influences, music under totalitarian regimes, the postwar avant-garde (Boulez, Cage, Stockhausen), minimalism, electronic music, and the co-existing diversity of styles that defines the modern era.&lt;/p></description></item><item><title>MUSIC 260</title><link>https://notes.sibeliusp.com/music260/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music260/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music260.jpg" alt="Featured image of post MUSIC 260" />&lt;p>Taught by &lt;a class="link" href="https://uwaterloo.ca/music/people-profiles/laura-gray" target="_blank" rel="noopener"
+>Laura Gray&lt;/a>. This course traces the history of the symphony from its 18th-century origins through the modern era. Topics include the galant style and early Italian overture-symphonies, the Mannheim School&amp;rsquo;s innovations, the Classical symphonies of Haydn and Mozart, Beethoven&amp;rsquo;s revolutionary expansion of the form, Romantic-era responses from Brahms, Dvořák, and Tchaikovsky, and 20th-century reinterpretations by Elgar, Prokofiev, and others. The course emphasizes how the symphony reflected changing audiences, cultural ideals, and the ongoing tension between tradition and innovation.&lt;/p></description></item><item><title>MUSIC 332</title><link>https://notes.sibeliusp.com/music332/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music332/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music332.jpg" alt="Featured image of post MUSIC 332" />&lt;p>Taught by &lt;a class="link" href="https://uwaterloo.ca/music/people-profiles/laura-gray" target="_blank" rel="noopener"
+>Laura Gray&lt;/a>.&lt;/p></description></item><item><title>MUSIC 371</title><link>https://notes.sibeliusp.com/music371/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://notes.sibeliusp.com/music371/</guid><description>&lt;img src="https://notes.sibeliusp.com/crs_banner/music371.jpg" alt="Featured image of post MUSIC 371" />&lt;p>This course is like a survey course of all 20th century music: Serialism, Neo-Riemannian and so on.&lt;/p>
+&lt;p>These notes survey 20th-century music theory and analysis. Topics include extended tertian harmony (9th, 11th, 13th chords), jazz theory and modes, nonserial atonality, pitch-class set theory (Forte&amp;rsquo;s system), serialism and twelve-tone technique, and Neo-Riemannian analysis.&lt;/p></description></item></channel></rss>
