@@ -2,7 +2,7 @@
 layout: post
 title: MUSIC 143
 description: "The Other Side of the Record"
-date: 2026-04-20 00:00:00+0000
+date: 2026-04-19 00:00:00+0000
 term: Winter 2026
 subject: music
 md: /mdf/1261/music143
